@@ -86,10 +86,50 @@ That's the whole list — no auth secrets are needed for this build.
 The dashboard is then live for anyone with the URL, and holdings can be managed
 from the **Manage holdings** page — no sign-in required.
 
+## Daily news refresh (automated)
+
+`/api/cron/refresh-news` refreshes the Credit & Media feed on its own, driven by
+a **Vercel Cron Job** (defined in `vercel.json`). On each run it:
+
+1. reads the distinct issuers from your holdings book,
+2. asks OpenAI (with its web-search tool) for material 2-day news per issuer
+   (rating actions, defaults, regulatory/fraud, liquidity events),
+3. classifies each item as `high` / `medium` / `low` / `positive`,
+4. de-duplicates against recent items and inserts only what's new (add-only;
+   it never deletes), capped per issuer.
+
+Because it runs on Vercel — same place as the database — there is no external
+network dependency and nothing to schedule outside the project.
+
+### Setup
+
+1. In the Vercel project, add environment variables (Settings → Environment
+   Variables):
+   - `OPENAI_API_KEY` — your OpenAI key
+   - `CRON_SECRET` — a long random string (`openssl rand -hex 32`). Vercel
+     automatically sends this as `Authorization: Bearer <CRON_SECRET>` on cron
+     invocations, and the route rejects any request without it.
+   - *(optional)* `OPENAI_MODEL`, `NEWS_LOOKBACK_DAYS`, `NEWS_MAX_PER_ISSUER`,
+     `NEWS_MAX_ISSUERS` — see `.env.example`.
+2. Redeploy. Vercel registers the cron from `vercel.json`.
+3. The schedule `30 1 * * *` (UTC) = **07:00 IST daily**. Edit `vercel.json` to
+   change it. (Vercel Cron uses UTC; IST is UTC+5:30.)
+
+> **Plan note:** Vercel **Hobby** allows once-daily crons and caps function
+> runtime at 60s — keep `NEWS_MAX_ISSUERS` low there. **Pro** allows more
+> frequent schedules and up to 300s (`maxDuration` in the route).
+
+Trigger a run manually to test:
+
+```bash
+curl -H "Authorization: Bearer $CRON_SECRET" \
+  https://db-treasury-cockpit.vercel.app/api/cron/refresh-news
+```
+
 ## Notes
 
-- Media/credit items are seeded as realistic samples and are editable via the
-  API; wire a real news or ratings feed into `src/app/api/media` to automate.
+- Media/credit items are refreshed automatically by the cron above, and remain
+  editable via `src/app/api/media` and the Manage-media page.
 - Amounts are stored in absolute rupees and displayed in ₹ crore.
 - Two NCDs seed without a mapped issuer (their full name is used) — set the
   issuer field on those rows in Manage holdings.
