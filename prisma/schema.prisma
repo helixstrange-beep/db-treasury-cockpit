@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL")
+  directUrl = env("POSTGRES_URL_NON_POOLING")
+}
+
+model Holding {
+  id             String    @id @default(cuid())
+  name           String
+  issuer         String?
+  type           String // "Corporate Bond" | "Mutual Fund" | "Bank Deposit"
+  category       String? // MF category: Liquid / Overnight / Low duration ...
+  amount         Float
+  ytm            Float?
+  deposit        DateTime?
+  maturity       DateTime?
+  maturityAmount Float?
+  entity         String?
+  ipo            String    @default("Non-IPO") // "IPO" | "Non-IPO"
+  geo            String    @default("India")
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@index([type])
+  @@index([entity])
+  @@index([maturity])
+}
+
+model MarketPoint {
+  id     String   @id @default(cuid())
+  date   DateTime
+  series String // tb91, tb180, tb364, g10y, usdinr, ust1m, ust3m, ust6m, ust1y, 1M_fwd ...
+  value  Float
+
+  @@unique([date, series])
+  @@index([series])
+}
+
+model MaturityBucket {
+  id          String @id @default(cuid())
+  period      String @unique
+  debts       Float  @default(0)
+  mutualFunds Float  @default(0)
+  order       Int    @default(0)
+}
+
+// Bond-screener candidate universe (sample rows; replace with a live OBPP/exchange feed)
+model BondCandidate {
+  id       String   @id @default(cuid())
+  issuer   String
+  name     String
+  isin     String   @unique
+  sector   String // PSU | NBFC
+  rating   String // AAA | AA+ ...
+  ytm      Float // fraction, e.g. 0.0745
+  maturity DateTime
+  lot      Float // face lot in Cr
+  sample   Boolean  @default(true)
+  createdAt DateTime @default(now())
+
+  @@index([issuer])
+  @@index([rating])
+}
+
+// Issuer-level credit / negative-media items (editable in the app)
+model MediaItem {
+  id       String   @id @default(cuid())
+  issuer   String
+  severity String // high | medium | low | positive
+  date     DateTime
+  source   String
+  headline String
+  summary  String
+  createdAt DateTime @default(now())
+
+  @@index([issuer])
+  @@index([severity])
+}

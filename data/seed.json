@@ -1,0 +1,5178 @@
+{
+  "asOf": "2026-06-23",
+  "marketCurrent": {
+    "1M_fwd": 0.011128,
+    "3M_fwd": 0.011941,
+    "6M_fwd": 0.014016,
+    "tb91": 0.0649,
+    "tb180": 0.0661,
+    "tb364": 0.0656,
+    "g10y": 0.0668,
+    "usdinr": 86.67,
+    "ust1m": 0.0437,
+    "ust3m": 0.0434,
+    "ust6m": 0.0429,
+    "ust1y": 0.0413
+  },
+  "holdings": [
+    {
+      "name": "8.098% Tata Cap 22 JAN 2027",
+      "issuer": "Tata Capital",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 525801552,
+      "ytm": 0.07009943425655366,
+      "deposit": "2025-09-26",
+      "maturity": "2027-01-22",
+      "maturityAmount": 506101232.88,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "8.098% Tata Cap 23 SEP 2027",
+      "issuer": "Tata Capital",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 528596019,
+      "ytm": 0.07099922001361848,
+      "deposit": "2025-09-26",
+      "maturity": "2027-09-23",
+      "maturityAmount": 533168520.54794526,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "7.84% HDB FIN SER 14 JUL 2026",
+      "issuer": "HDB Financial",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 322143974,
+      "ytm": 0.06997558772563932,
+      "deposit": "2025-09-23",
+      "maturity": "2026-07-14",
+      "maturityAmount": 323400000,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "7.988% HDB FIN SER 8 DEC 2026",
+      "issuer": "HDB Financial",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 538580903,
+      "ytm": 0.07099879086017609,
+      "deposit": "2025-09-23",
+      "maturity": "2026-12-08",
+      "maturityAmount": 514881753.42,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "7.89% TATA CAP LTD 26 JULY 27",
+      "issuer": "Tata Capital",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 539780305,
+      "ytm": 0.07099993526935579,
+      "deposit": "2025-10-01",
+      "maturity": "2027-07-26",
+      "maturityAmount": 539450000,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "7.1941 NCD 11FB28 FVRS1LAC",
+      "issuer": "7.1941 NCD 11FB28 FVRS1LAC",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 1282632069,
+      "ytm": 0.0714997321367264,
+      "deposit": "2025-10-31",
+      "maturity": "2028-02-11",
+      "maturityAmount": 1339926250,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "KML 8.225% NCD",
+      "issuer": "Kotak Mahindra (KML)",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 255536202,
+      "ytm": 0.07149917781352998,
+      "deposit": "2025-12-16",
+      "maturity": "2027-04-21",
+      "maturityAmount": 270562500,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "7.5 NCB NABARD 31 AUG 26",
+      "issuer": "NABARD",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 265167318,
+      "ytm": 0.07357352674007417,
+      "deposit": "2026-01-28",
+      "maturity": "2026-08-31",
+      "maturityAmount": 268750000,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "7.905 NCD Tata Capital FVRS1LAC",
+      "issuer": "Tata Capital",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 535241751,
+      "ytm": 0.07899782955646516,
+      "deposit": "2026-04-07",
+      "maturity": "2026-12-03",
+      "maturityAmount": 256605550,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "8.2850 NCD Tata Capital",
+      "issuer": "Tata Capital",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 254138920,
+      "ytm": 0.07449889481067658,
+      "deposit": "2026-04-16",
+      "maturity": "2027-05-10",
+      "maturityAmount": 270712500,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "8.2850 NCD Tata Capital (2)",
+      "issuer": "Tata Capital",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 50826973,
+      "ytm": 0.07449862062931062,
+      "deposit": "2026-04-17",
+      "maturity": "2027-05-10",
+      "maturityAmount": 54142500,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "8.12 NCD 10SP27 FVRS1LAC",
+      "issuer": "8.12 NCD 10SP27 FVRS1LAC",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 266954525,
+      "ytm": 0.0769992619752884,
+      "deposit": "2026-05-11",
+      "maturity": "2027-09-10",
+      "maturityAmount": 270300000,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "BAJAJ FINANCE LIMITED 7.7951 NC",
+      "issuer": "Bajaj Finance",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 520896938,
+      "ytm": 0.07729947268962863,
+      "deposit": "2026-05-13",
+      "maturity": "2027-12-10",
+      "maturityAmount": 538975500,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ADITYA BIRLA 7.3789 NCD 14FB28",
+      "issuer": "Aditya Birla Finance",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 508467890,
+      "ytm": 0.07949918210506442,
+      "deposit": "2026-05-15",
+      "maturity": "2028-02-14",
+      "maturityAmount": 536894500,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "M&M Finance 8.25 NCD FVRS",
+      "issuer": "M&M Finance",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 408736240,
+      "ytm": 0.08049910962581636,
+      "deposit": "2026-05-19",
+      "maturity": "2028-03-29",
+      "maturityAmount": 433000000,
+      "entity": "Valmo Transportation Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Bajaj Finance 7.795 NCD FVRS",
+      "issuer": "Bajaj Finance",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 518414525,
+      "ytm": 0.08099924623966219,
+      "deposit": "2026-05-19",
+      "maturity": "2027-12-10",
+      "maturityAmount": 538975500,
+      "entity": "Valmo Transportation Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "BAJAJ FINANCE LIMITED 8.12",
+      "issuer": "Bajaj Finance",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 530813987,
+      "ytm": 0.08249892890453338,
+      "deposit": "2026-05-22",
+      "maturity": "2027-09-10",
+      "maturityAmount": 540600000,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "HDB 7.65 NCD 05MY28",
+      "issuer": "HDB Financial",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 500275629,
+      "ytm": 0.08199954926967622,
+      "deposit": "2026-05-20",
+      "maturity": "2028-05-05",
+      "maturityAmount": 538250000,
+      "entity": "Valmo Transportation Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Bajaj 8.1167 100527",
+      "issuer": "Bajaj Finance",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 252254731,
+      "ytm": 0.08169476091861727,
+      "deposit": "2026-06-01",
+      "maturity": "2027-05-10",
+      "maturityAmount": 270291750,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Bajaj 8.1167 100527 (2)",
+      "issuer": "Bajaj Finance",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 201802330,
+      "ytm": 0.0817036181688309,
+      "deposit": "2026-06-02",
+      "maturity": "2027-05-10",
+      "maturityAmount": 216233400,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Tata Capital - ML",
+      "issuer": "Tata Capital",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 253382908,
+      "ytm": 0.0781,
+      "deposit": "2026-06-19",
+      "maturity": "2027-05-10",
+      "maturityAmount": 270712500,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Tata Capital - ML (2)",
+      "issuer": "Tata Capital",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 536315126,
+      "ytm": 0.0778,
+      "deposit": "2026-06-19",
+      "maturity": "2027-07-26",
+      "maturityAmount": 539450000,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Tata Capital - ML (3)",
+      "issuer": "Tata Capital",
+      "type": "Corporate Bond",
+      "category": "Corporate Bond",
+      "amount": 264036997,
+      "ytm": 0.0778,
+      "deposit": "2026-06-23",
+      "maturity": "2027-10-19",
+      "maturityAmount": 270000000,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Aditya Birla SL Liquid Direct-G",
+      "issuer": "Aditya Birla MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 855586130.07,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 855586130.07,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "HSBC Liquid Direct-G",
+      "issuer": "HSBC MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 103296.19,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 103296.19,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Aditya Birla SL Liquid Direct-G",
+      "issuer": "Aditya Birla MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 1178974889.89,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 1178974889.89,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "DSP Liquidity Direct-G",
+      "issuer": "DSP MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 440390654.07,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 440390654.07,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "HDFC Low Duration Direct-G",
+      "issuer": "HDFC MF",
+      "type": "Mutual Fund",
+      "category": "Low duration",
+      "amount": 1208924604.41,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 1208924604.41,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Tata Liquid Direct-G",
+      "issuer": "Tata MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 102864.55,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 102864.55,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Aditya Birla SL Liquid Direct-G",
+      "issuer": "Aditya Birla MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 310977395.61,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 310977395.61,
+      "entity": "Valmo Transportation Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Liquid Direct-G",
+      "issuer": "Axis MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 181949766.6,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 181949766.6,
+      "entity": "Valmo Transportation Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Nippon India Liquid Direct-G",
+      "issuer": "Nippon MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 57390322.74,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 57390322.74,
+      "entity": "Valmo Transportation Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Nippon India Overnight Direct-G",
+      "issuer": "Nippon MF",
+      "type": "Mutual Fund",
+      "category": "Overnight",
+      "amount": 30009346.12,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 30009346.12,
+      "entity": "Valmo Transportation Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Overnight Direct-G",
+      "issuer": "Axis MF",
+      "type": "Mutual Fund",
+      "category": "Overnight",
+      "amount": 294559121,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 294559121,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "DSP Liquidity Direct-G",
+      "issuer": "DSP MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 56357599.98,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 56357599.98,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Aditya Birla SL Overnight Direct-G",
+      "issuer": "Aditya Birla MF",
+      "type": "Mutual Fund",
+      "category": "Overnight",
+      "amount": 124041.11,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 124041.11,
+      "entity": "Meesho Grocery Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Overnight Direct-G",
+      "issuer": "Axis MF",
+      "type": "Mutual Fund",
+      "category": "Overnight",
+      "amount": 92080.32,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 92080.32,
+      "entity": "Meesho Grocery Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "DSP Liquidity Direct-G",
+      "issuer": "DSP MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 73259931.14,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 73259931.14,
+      "entity": "Meesho Grocery Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "HSBC Liquid Direct-G",
+      "issuer": "HSBC MF",
+      "type": "Mutual Fund",
+      "category": "Liquid",
+      "amount": 54338226.38,
+      "ytm": null,
+      "deposit": null,
+      "maturity": null,
+      "maturityAmount": 54338226.38,
+      "entity": "Meesho Grocery Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 509486197,
+      "ytm": 0.06295008957386017,
+      "deposit": "2025-06-10",
+      "maturity": "2026-08-21",
+      "maturityAmount": 514538724,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "IDFC Bank",
+      "issuer": "IDFC Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 245772,
+      "ytm": 0.07450396716594697,
+      "deposit": "2025-01-04",
+      "maturity": "2026-06-28",
+      "maturityAmount": 246014,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "HDFC Bank",
+      "issuer": "HDFC Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 3017660,
+      "ytm": 0.07338171303272249,
+      "deposit": "2023-10-27",
+      "maturity": "2026-09-27",
+      "maturityAmount": 3074391,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Yes bank",
+      "issuer": "Yes Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 52442116,
+      "ytm": 0.07080764472484588,
+      "deposit": "2025-06-06",
+      "maturity": "2026-06-27",
+      "maturityAmount": 52479410,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "SBI Bank",
+      "issuer": "SBI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1074307889,
+      "ytm": 0.06648875176906585,
+      "deposit": "2025-07-08",
+      "maturity": "2026-10-08",
+      "maturityAmount": 1094773224,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "SBI Bank",
+      "issuer": "SBI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1169831964,
+      "ytm": 0.06648875176906585,
+      "deposit": "2025-07-09",
+      "maturity": "2026-10-09",
+      "maturityAmount": 1192327273,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Yes Bank",
+      "issuer": "Yes Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 742220065,
+      "ytm": 0.06555234491825104,
+      "deposit": "2025-08-19",
+      "maturity": "2026-08-19",
+      "maturityAmount": 749616073,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 422350,
+      "ytm": 0.06397999823093414,
+      "deposit": "2025-08-07",
+      "maturity": "2026-08-07",
+      "maturityAmount": 425592,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 367144497,
+      "ytm": 0.06293293535709381,
+      "deposit": "2025-09-10",
+      "maturity": "2026-09-10",
+      "maturityAmount": 372026528,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 10590316,
+      "ytm": 0.06398020088672639,
+      "deposit": "2025-09-17",
+      "maturity": "2026-09-17",
+      "maturityAmount": 10746200,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Mahindra Finance",
+      "issuer": "Mahindra Finance",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 263381096,
+      "ytm": 0.07192707359790802,
+      "deposit": "2025-09-22",
+      "maturity": "2027-03-22",
+      "maturityAmount": 277372820,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Mahindra Finance",
+      "issuer": "Mahindra Finance",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 263273185,
+      "ytm": 0.071342071890831,
+      "deposit": "2025-09-22",
+      "maturity": "2026-12-16",
+      "maturityAmount": 272168425,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1047497,
+      "ytm": 0.06400645673274992,
+      "deposit": "2025-09-23",
+      "maturity": "2026-10-23",
+      "maturityAmount": 1069446,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "HDFC Bank",
+      "issuer": "HDFC Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 523429,
+      "ytm": 0.06220000088214875,
+      "deposit": "2025-09-19",
+      "maturity": "2026-09-19",
+      "maturityAmount": 531100,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "RBL Bank",
+      "issuer": "RBL Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1048326403,
+      "ytm": 0.07133409082889558,
+      "deposit": "2025-10-16",
+      "maturity": "2027-01-14",
+      "maturityAmount": 1089691773,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "SBI Bank",
+      "issuer": "SBI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 2206407452,
+      "ytm": 0.0671264797449112,
+      "deposit": "2025-10-15",
+      "maturity": "2026-10-15",
+      "maturityAmount": 2251636870,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1038617,
+      "ytm": 0.06397999823093414,
+      "deposit": "2025-11-12",
+      "maturity": "2026-11-12",
+      "maturityAmount": 1063980,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 5700866,
+      "ytm": 0.06765305697917938,
+      "deposit": "2025-12-05",
+      "maturity": "2027-12-07",
+      "maturityAmount": 6271606,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1246552,
+      "ytm": 0.065738382935524,
+      "deposit": "2025-12-23",
+      "maturity": "2027-06-22",
+      "maturityAmount": 1328267,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1246552,
+      "ytm": 0.065738382935524,
+      "deposit": "2025-12-23",
+      "maturity": "2027-06-22",
+      "maturityAmount": 1328267,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 4660315,
+      "ytm": 0.0639802485704422,
+      "deposit": "2025-12-11",
+      "maturity": "2026-12-11",
+      "maturityAmount": 4797704,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 207230,
+      "ytm": 0.06397920548915863,
+      "deposit": "2025-11-26",
+      "maturity": "2026-11-27",
+      "maturityAmount": 212832,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1538982,
+      "ytm": 0.06397999823093414,
+      "deposit": "2026-01-23",
+      "maturity": "2027-01-23",
+      "maturityAmount": 1595970,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1538982,
+      "ytm": 0.06397999823093414,
+      "deposit": "2026-01-23",
+      "maturity": "2027-01-23",
+      "maturityAmount": 1595970,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 8893561,
+      "ytm": 0.0566201776266098,
+      "deposit": "2026-02-17",
+      "maturity": "2026-08-22",
+      "maturityAmount": 8974444,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 2398261,
+      "ytm": 0.06468759477138518,
+      "deposit": "2026-02-17",
+      "maturity": "2027-08-18",
+      "maturityAmount": 2578073,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 153318857,
+      "ytm": 0.0677,
+      "deposit": "2026-02-21",
+      "maturity": "2027-03-03",
+      "maturityAmount": 160437296,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 543195,
+      "ytm": 0.06400901377201079,
+      "deposit": "2026-03-24",
+      "maturity": "2027-05-11",
+      "maturityAmount": 573755,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 512495,
+      "ytm": 0.0687,
+      "deposit": "2026-03-29",
+      "maturity": "2027-03-31",
+      "maturityAmount": 539386.801548959,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 4744561,
+      "ytm": 0.06662740409374236,
+      "deposit": "2026-03-21",
+      "maturity": "2027-04-15",
+      "maturityAmount": 4999346,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "SBI Bank",
+      "issuer": "SBI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1016486570,
+      "ytm": 0.07502280175685883,
+      "deposit": "2026-04-02",
+      "maturity": "2027-04-02",
+      "maturityAmount": 1075130302,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "SBI Bank",
+      "issuer": "SBI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1931897009,
+      "ytm": 0.07502280175685883,
+      "deposit": "2026-03-31",
+      "maturity": "2027-03-31",
+      "maturityAmount": 2042543319,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1017222784,
+      "ytm": 0.07608236968517304,
+      "deposit": "2026-03-30",
+      "maturity": "2027-06-27",
+      "maturityAmount": 1095495476,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 20413938,
+      "ytm": 0.054496004026939326,
+      "deposit": "2026-06-01",
+      "maturity": "2026-12-07",
+      "maturityAmount": 20929295,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 7363747,
+      "ytm": 0.05457954387397601,
+      "deposit": "2026-06-01",
+      "maturity": "2027-03-02",
+      "maturityAmount": 7646503,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 32418195,
+      "ytm": 0.061786580305283056,
+      "deposit": "2026-06-01",
+      "maturity": "2027-09-03",
+      "maturityAmount": 34907028,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 10043771,
+      "ytm": 0.062350372527300024,
+      "deposit": "2026-06-01",
+      "maturity": "2027-12-08",
+      "maturityAmount": 11001081,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "HDFC Bank",
+      "issuer": "HDFC Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 3000000000,
+      "ytm": 0.0787,
+      "deposit": "2026-06-23",
+      "maturity": "2027-09-21",
+      "maturityAmount": 3297211817,
+      "entity": "Meesho Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 267573,
+      "ytm": 0.0456,
+      "deposit": "2026-06-22",
+      "maturity": "2026-12-22",
+      "maturityAmount": 273594,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 1607061,
+      "ytm": 0.0456,
+      "deposit": "2026-06-22",
+      "maturity": "2026-12-22",
+      "maturityAmount": 1643218,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "ICICI Bank",
+      "issuer": "ICICI Bank",
+      "type": "Bank Deposit",
+      "category": "Bank Deposit",
+      "amount": 26436130,
+      "ytm": 0.064,
+      "deposit": "2026-06-23",
+      "maturity": "2027-06-23",
+      "maturityAmount": 28127518,
+      "entity": "Meesho Payments Private Limited",
+      "ipo": "Non-IPO",
+      "geo": "India"
+    },
+    {
+      "name": "RBL Bank",
+      "issuer": "RBL Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310840338,
+      "ytm": 0.0687,
+      "deposit": "2025-12-10",
+      "maturity": "2026-09-28",
+      "maturityAmount": 316377727.4900857,
+      "entity": "Meesho Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "RBL Bank",
+      "issuer": "RBL Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310840338,
+      "ytm": 0.0687,
+      "deposit": "2025-12-10",
+      "maturity": "2026-09-14",
+      "maturityAmount": 315572466.3508751,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "RBL Bank",
+      "issuer": "RBL Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310684914,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2026-06-29",
+      "maturityAmount": 311019646.9137817,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "RBL Bank",
+      "issuer": "RBL Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310684914,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2026-07-13",
+      "maturityAmount": 311802094.2397705,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "RBL Bank",
+      "issuer": "RBL Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310684914,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2026-08-13",
+      "maturityAmount": 313541668.3486203,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 723769902,
+      "ytm": 0.0645,
+      "deposit": "2025-12-10",
+      "maturity": "2026-09-28",
+      "maturityAmount": 735892831.9214705,
+      "entity": "Meesho Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 3624657327,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2026-12-14",
+      "maturityAmount": 3739633655.153929,
+      "entity": "Meesho Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 878863452,
+      "ytm": 0.0645,
+      "deposit": "2025-12-10",
+      "maturity": "2026-09-28",
+      "maturityAmount": 893584153.0475003,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310187101,
+      "ytm": 0.0645,
+      "deposit": "2025-12-10",
+      "maturity": "2026-10-13",
+      "maturityAmount": 316193809.2539082,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 878863452,
+      "ytm": 0.0645,
+      "deposit": "2025-12-10",
+      "maturity": "2026-10-28",
+      "maturityAmount": 898186677.3230507,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310187101,
+      "ytm": 0.0645,
+      "deposit": "2025-12-10",
+      "maturity": "2026-11-13",
+      "maturityAmount": 317876838.44831824,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 878863452,
+      "ytm": 0.0645,
+      "deposit": "2025-12-10",
+      "maturity": "2026-11-27",
+      "maturityAmount": 902812907.5132985,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310684914,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2026-12-14",
+      "maturityAmount": 320540027.58462274,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 880273922,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2026-12-28",
+      "maturityAmount": 910481539.7597194,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310684914,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2027-01-13",
+      "maturityAmount": 322270508.16941833,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 880273922,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2027-01-28",
+      "maturityAmount": 915561204.529173,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310684914,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2027-02-12",
+      "maturityAmount": 324010330.9979173,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Kotak Bank",
+      "issuer": "Kotak Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 880273922,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2027-02-26",
+      "maturityAmount": 920338802.264433,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 1509955993,
+      "ytm": 0.065,
+      "deposit": "2025-12-10",
+      "maturity": "2026-09-28",
+      "maturityAmount": 1535438910.043547,
+      "entity": "Meesho Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 2537260129,
+      "ytm": 0.0677,
+      "deposit": "2025-12-10",
+      "maturity": "2027-05-28",
+      "maturityAmount": 2696421095.4612184,
+      "entity": "Meesho Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 620113106,
+      "ytm": 0.064,
+      "deposit": "2025-12-11",
+      "maturity": "2026-06-29",
+      "maturityAmount": 620745794.9620044,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 878493567,
+      "ytm": 0.064,
+      "deposit": "2025-12-11",
+      "maturity": "2026-07-29",
+      "maturityAmount": 883885159.1744032,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 878493567,
+      "ytm": 0.064,
+      "deposit": "2025-12-11",
+      "maturity": "2026-08-29",
+      "maturityAmount": 888554427.086682,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310629160,
+      "ytm": 0.0677,
+      "deposit": "2025-12-11",
+      "maturity": "2027-03-13",
+      "maturityAmount": 325642638.9064843,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 880115953,
+      "ytm": 0.0677,
+      "deposit": "2025-12-11",
+      "maturity": "2027-03-30",
+      "maturityAmount": 925473461.6569313,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310629160,
+      "ytm": 0.0677,
+      "deposit": "2025-12-11",
+      "maturity": "2027-04-14",
+      "maturityAmount": 327518205.39999324,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 880115953,
+      "ytm": 0.0677,
+      "deposit": "2025-12-11",
+      "maturity": "2027-04-29",
+      "maturityAmount": 930469760.7750441,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 310629160,
+      "ytm": 0.0677,
+      "deposit": "2025-12-11",
+      "maturity": "2027-05-14",
+      "maturityAmount": 329286358.6627309,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 880115953,
+      "ytm": 0.0677,
+      "deposit": "2025-12-11",
+      "maturity": "2027-05-29",
+      "maturityAmount": 935493033.1191994,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 1811678260,
+      "ytm": 0.0677,
+      "deposit": "2025-12-12",
+      "maturity": "2026-12-22",
+      "maturityAmount": 1871831375.9476,
+      "entity": "Meesho Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 329207821,
+      "ytm": 0.0677,
+      "deposit": "2025-12-12",
+      "maturity": "2026-12-22",
+      "maturityAmount": 340138501.45790625,
+      "entity": "Meesho Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 1535881649,
+      "ytm": 0.0655,
+      "deposit": "2026-02-07",
+      "maturity": "2026-11-03",
+      "maturityAmount": 1571801783.5761323,
+      "entity": "Meesho Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-06-14",
+      "maturityAmount": 323424657.53424656,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-06-29",
+      "maturityAmount": 324349315.0684931,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-06-29",
+      "maturityAmount": 324349315.0684931,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-06-29",
+      "maturityAmount": 270291095.89041096,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-07-14",
+      "maturityAmount": 325273972.60273975,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-07-29",
+      "maturityAmount": 326198630.1369863,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-07-29",
+      "maturityAmount": 326198630.1369863,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-07-29",
+      "maturityAmount": 271832191.7808219,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-08-13",
+      "maturityAmount": 327123287.6712329,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-08-27",
+      "maturityAmount": 327986301.36986303,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-08-27",
+      "maturityAmount": 327986301.36986303,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-08-27",
+      "maturityAmount": 273321917.8082192,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-09-14",
+      "maturityAmount": 329095890.4109589,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-09-29",
+      "maturityAmount": 330020547.94520545,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-09-29",
+      "maturityAmount": 330020547.94520545,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-09-29",
+      "maturityAmount": 275017123.2876712,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-10-14",
+      "maturityAmount": 330945205.4794521,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-10-29",
+      "maturityAmount": 331869863.01369864,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-10-29",
+      "maturityAmount": 331869863.01369864,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-10-29",
+      "maturityAmount": 276558219.17808217,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-11-12",
+      "maturityAmount": 332732876.7123288,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-11-29",
+      "maturityAmount": 333780821.91780823,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-11-29",
+      "maturityAmount": 333780821.91780823,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-11-29",
+      "maturityAmount": 278150684.9315069,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-12-14",
+      "maturityAmount": 334705479.4520548,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-12-29",
+      "maturityAmount": 335630136.98630136,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-12-29",
+      "maturityAmount": 335630136.98630136,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2027-12-29",
+      "maturityAmount": 279691780.82191783,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2028-01-14",
+      "maturityAmount": 280513698.63013697,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2028-01-14",
+      "maturityAmount": 280513698.63013697,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 301479452,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2028-01-28",
+      "maturityAmount": 337479452.05479455,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2028-01-28",
+      "maturityAmount": 281232876.7123288,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    },
+    {
+      "name": "Axis Bank",
+      "issuer": "Axis Bank",
+      "type": "Bank Deposit",
+      "category": "Bank deposit",
+      "amount": 251232877,
+      "ytm": 0.075,
+      "deposit": "2026-05-30",
+      "maturity": "2028-01-28",
+      "maturityAmount": 281232876.7123288,
+      "entity": "Meesho Technologies Private Limited",
+      "ipo": "IPO",
+      "geo": "India"
+    }
+  ],
+  "marketPoints": [
+    {
+      "date": "2023-08-28",
+      "series": "tb91",
+      "value": 0.0685
+    },
+    {
+      "date": "2023-08-28",
+      "series": "tb180",
+      "value": 0.0704
+    },
+    {
+      "date": "2023-08-28",
+      "series": "tb364",
+      "value": 0.0705
+    },
+    {
+      "date": "2023-08-28",
+      "series": "g10y",
+      "value": 0.0717
+    },
+    {
+      "date": "2023-08-28",
+      "series": "usdinr",
+      "value": 82.6
+    },
+    {
+      "date": "2023-08-28",
+      "series": "ust1m",
+      "value": 0.0556
+    },
+    {
+      "date": "2023-08-28",
+      "series": "ust3m",
+      "value": 0.0558
+    },
+    {
+      "date": "2023-08-28",
+      "series": "ust6m",
+      "value": 0.0556
+    },
+    {
+      "date": "2023-08-28",
+      "series": "ust1y",
+      "value": 0.0544
+    },
+    {
+      "date": "2023-08-28",
+      "series": "1M_fwd",
+      "value": 0.012858
+    },
+    {
+      "date": "2023-08-28",
+      "series": "3M_fwd",
+      "value": 0.013314
+    },
+    {
+      "date": "2023-08-28",
+      "series": "6M_fwd",
+      "value": 0.013824
+    },
+    {
+      "date": "2023-09-11",
+      "series": "tb91",
+      "value": 0.0682
+    },
+    {
+      "date": "2023-09-11",
+      "series": "tb180",
+      "value": 0.0692
+    },
+    {
+      "date": "2023-09-11",
+      "series": "tb364",
+      "value": 0.0699
+    },
+    {
+      "date": "2023-09-11",
+      "series": "g10y",
+      "value": 0.0721
+    },
+    {
+      "date": "2023-09-11",
+      "series": "usdinr",
+      "value": 82.9
+    },
+    {
+      "date": "2023-09-11",
+      "series": "ust1m",
+      "value": 0.0552
+    },
+    {
+      "date": "2023-09-11",
+      "series": "ust3m",
+      "value": 0.0555
+    },
+    {
+      "date": "2023-09-11",
+      "series": "ust6m",
+      "value": 0.0551
+    },
+    {
+      "date": "2023-09-11",
+      "series": "ust1y",
+      "value": 0.054
+    },
+    {
+      "date": "2023-09-11",
+      "series": "1M_fwd",
+      "value": 0.014707
+    },
+    {
+      "date": "2023-09-11",
+      "series": "3M_fwd",
+      "value": 0.014844
+    },
+    {
+      "date": "2023-09-11",
+      "series": "6M_fwd",
+      "value": 0.015238
+    },
+    {
+      "date": "2023-09-18",
+      "series": "tb91",
+      "value": 0.0685
+    },
+    {
+      "date": "2023-09-18",
+      "series": "tb180",
+      "value": 0.0706
+    },
+    {
+      "date": "2023-09-18",
+      "series": "tb364",
+      "value": 0.0708
+    },
+    {
+      "date": "2023-09-18",
+      "series": "g10y",
+      "value": 0.0717
+    },
+    {
+      "date": "2023-09-18",
+      "series": "usdinr",
+      "value": 83.27
+    },
+    {
+      "date": "2023-09-18",
+      "series": "ust1m",
+      "value": 0.0553
+    },
+    {
+      "date": "2023-09-18",
+      "series": "ust3m",
+      "value": 0.0555
+    },
+    {
+      "date": "2023-09-18",
+      "series": "ust6m",
+      "value": 0.0551
+    },
+    {
+      "date": "2023-09-18",
+      "series": "ust1y",
+      "value": 0.0544
+    },
+    {
+      "date": "2023-09-18",
+      "series": "1M_fwd",
+      "value": 0.014187
+    },
+    {
+      "date": "2023-09-18",
+      "series": "3M_fwd",
+      "value": 0.015263
+    },
+    {
+      "date": "2023-09-18",
+      "series": "6M_fwd",
+      "value": 0.015699
+    },
+    {
+      "date": "2023-09-25",
+      "series": "tb91",
+      "value": 0.0682
+    },
+    {
+      "date": "2023-09-25",
+      "series": "tb180",
+      "value": 0.07
+    },
+    {
+      "date": "2023-09-25",
+      "series": "tb364",
+      "value": 0.07
+    },
+    {
+      "date": "2023-09-25",
+      "series": "g10y",
+      "value": 0.0715
+    },
+    {
+      "date": "2023-09-25",
+      "series": "usdinr",
+      "value": 83.13
+    },
+    {
+      "date": "2023-09-25",
+      "series": "ust1m",
+      "value": 0.0556
+    },
+    {
+      "date": "2023-09-25",
+      "series": "ust3m",
+      "value": 0.0559
+    },
+    {
+      "date": "2023-09-25",
+      "series": "ust6m",
+      "value": 0.0553
+    },
+    {
+      "date": "2023-09-25",
+      "series": "ust1y",
+      "value": 0.0545
+    },
+    {
+      "date": "2023-09-25",
+      "series": "1M_fwd",
+      "value": 0.015584
+    },
+    {
+      "date": "2023-09-25",
+      "series": "3M_fwd",
+      "value": 0.016322
+    },
+    {
+      "date": "2023-09-25",
+      "series": "6M_fwd",
+      "value": 0.016433
+    },
+    {
+      "date": "2023-09-30",
+      "series": "tb91",
+      "value": 0.0682
+    },
+    {
+      "date": "2023-09-30",
+      "series": "tb180",
+      "value": 0.0704
+    },
+    {
+      "date": "2023-09-30",
+      "series": "tb364",
+      "value": 0.0701
+    },
+    {
+      "date": "2023-09-30",
+      "series": "g10y",
+      "value": 0.0722
+    },
+    {
+      "date": "2023-09-30",
+      "series": "usdinr",
+      "value": 83.17
+    },
+    {
+      "date": "2023-09-30",
+      "series": "ust1m",
+      "value": 0.056
+    },
+    {
+      "date": "2023-09-30",
+      "series": "ust3m",
+      "value": 0.0562
+    },
+    {
+      "date": "2023-09-30",
+      "series": "ust6m",
+      "value": 0.0558
+    },
+    {
+      "date": "2023-09-30",
+      "series": "ust1y",
+      "value": 0.0549
+    },
+    {
+      "date": "2023-09-30",
+      "series": "1M_fwd",
+      "value": 0.015984
+    },
+    {
+      "date": "2023-09-30",
+      "series": "3M_fwd",
+      "value": 0.016571
+    },
+    {
+      "date": "2023-09-30",
+      "series": "6M_fwd",
+      "value": 0.016612
+    },
+    {
+      "date": "2023-10-09",
+      "series": "tb91",
+      "value": 0.0686
+    },
+    {
+      "date": "2023-10-09",
+      "series": "tb180",
+      "value": 0.07
+    },
+    {
+      "date": "2023-10-09",
+      "series": "tb364",
+      "value": 0.0711
+    },
+    {
+      "date": "2023-10-09",
+      "series": "g10y",
+      "value": 0.0738
+    },
+    {
+      "date": "2023-10-09",
+      "series": "usdinr",
+      "value": 83.25
+    },
+    {
+      "date": "2023-10-09",
+      "series": "ust1m",
+      "value": 0.056
+    },
+    {
+      "date": "2023-10-09",
+      "series": "ust3m",
+      "value": 0.0561
+    },
+    {
+      "date": "2023-10-09",
+      "series": "ust6m",
+      "value": 0.0557
+    },
+    {
+      "date": "2023-10-09",
+      "series": "ust1y",
+      "value": 0.0537
+    },
+    {
+      "date": "2023-10-09",
+      "series": "1M_fwd",
+      "value": 0.015403
+    },
+    {
+      "date": "2023-10-09",
+      "series": "3M_fwd",
+      "value": 0.016239
+    },
+    {
+      "date": "2023-10-09",
+      "series": "6M_fwd",
+      "value": 0.01634
+    },
+    {
+      "date": "2023-10-16",
+      "series": "tb91",
+      "value": 0.0686
+    },
+    {
+      "date": "2023-10-16",
+      "series": "tb180",
+      "value": 0.0687
+    },
+    {
+      "date": "2023-10-16",
+      "series": "tb364",
+      "value": 0.0712
+    },
+    {
+      "date": "2023-10-16",
+      "series": "g10y",
+      "value": 0.0733
+    },
+    {
+      "date": "2023-10-16",
+      "series": "usdinr",
+      "value": 83.19
+    },
+    {
+      "date": "2023-10-16",
+      "series": "ust1m",
+      "value": 0.0557
+    },
+    {
+      "date": "2023-10-16",
+      "series": "ust3m",
+      "value": 0.0561
+    },
+    {
+      "date": "2023-10-16",
+      "series": "ust6m",
+      "value": 0.0558
+    },
+    {
+      "date": "2023-10-16",
+      "series": "ust1y",
+      "value": 0.0542
+    },
+    {
+      "date": "2023-10-16",
+      "series": "1M_fwd",
+      "value": 0.008087
+    },
+    {
+      "date": "2023-10-16",
+      "series": "3M_fwd",
+      "value": 0.013147
+    },
+    {
+      "date": "2023-10-16",
+      "series": "6M_fwd",
+      "value": 0.014423
+    },
+    {
+      "date": "2023-10-23",
+      "series": "tb91",
+      "value": 0.0689
+    },
+    {
+      "date": "2023-10-23",
+      "series": "tb180",
+      "value": 0.0713
+    },
+    {
+      "date": "2023-10-23",
+      "series": "tb364",
+      "value": 0.0714
+    },
+    {
+      "date": "2023-10-23",
+      "series": "g10y",
+      "value": 0.0737
+    },
+    {
+      "date": "2023-10-23",
+      "series": "usdinr",
+      "value": 83.07
+    },
+    {
+      "date": "2023-10-23",
+      "series": "ust1m",
+      "value": 0.0557
+    },
+    {
+      "date": "2023-10-23",
+      "series": "ust3m",
+      "value": 0.0558
+    },
+    {
+      "date": "2023-10-23",
+      "series": "ust6m",
+      "value": 0.0556
+    },
+    {
+      "date": "2023-10-23",
+      "series": "ust1y",
+      "value": 0.0542
+    },
+    {
+      "date": "2023-10-23",
+      "series": "1M_fwd",
+      "value": 0.007005
+    },
+    {
+      "date": "2023-10-23",
+      "series": "3M_fwd",
+      "value": 0.012352
+    },
+    {
+      "date": "2023-10-23",
+      "series": "6M_fwd",
+      "value": 0.014099
+    },
+    {
+      "date": "2023-11-06",
+      "series": "tb91",
+      "value": 0.0688
+    },
+    {
+      "date": "2023-11-06",
+      "series": "tb180",
+      "value": 0.0705
+    },
+    {
+      "date": "2023-11-06",
+      "series": "tb364",
+      "value": 0.0712
+    },
+    {
+      "date": "2023-11-06",
+      "series": "g10y",
+      "value": 0.0731
+    },
+    {
+      "date": "2023-11-06",
+      "series": "usdinr",
+      "value": 83.21
+    },
+    {
+      "date": "2023-11-06",
+      "series": "ust1m",
+      "value": 0.0553
+    },
+    {
+      "date": "2023-11-06",
+      "series": "ust3m",
+      "value": 0.0556
+    },
+    {
+      "date": "2023-11-06",
+      "series": "ust6m",
+      "value": 0.0547
+    },
+    {
+      "date": "2023-11-06",
+      "series": "ust1y",
+      "value": 0.0533
+    },
+    {
+      "date": "2023-11-06",
+      "series": "1M_fwd",
+      "value": 0.003373
+    },
+    {
+      "date": "2023-11-06",
+      "series": "3M_fwd",
+      "value": 0.009104
+    },
+    {
+      "date": "2023-11-06",
+      "series": "6M_fwd",
+      "value": 0.013962
+    },
+    {
+      "date": "2023-11-20",
+      "series": "tb91",
+      "value": 0.0687
+    },
+    {
+      "date": "2023-11-20",
+      "series": "tb180",
+      "value": 0.07
+    },
+    {
+      "date": "2023-11-20",
+      "series": "tb364",
+      "value": 0.071
+    },
+    {
+      "date": "2023-11-20",
+      "series": "g10y",
+      "value": 0.0722
+    },
+    {
+      "date": "2023-11-20",
+      "series": "usdinr",
+      "value": 83.317
+    },
+    {
+      "date": "2023-11-20",
+      "series": "ust1m",
+      "value": 0.0553
+    },
+    {
+      "date": "2023-11-20",
+      "series": "ust3m",
+      "value": 0.0554
+    },
+    {
+      "date": "2023-11-20",
+      "series": "ust6m",
+      "value": 0.0543
+    },
+    {
+      "date": "2023-11-20",
+      "series": "ust1y",
+      "value": 0.0525
+    },
+    {
+      "date": "2023-11-20",
+      "series": "1M_fwd",
+      "value": 0.012133
+    },
+    {
+      "date": "2023-11-20",
+      "series": "3M_fwd",
+      "value": 0.01082
+    },
+    {
+      "date": "2023-11-20",
+      "series": "6M_fwd",
+      "value": 0.014788
+    },
+    {
+      "date": "2023-11-27",
+      "series": "tb91",
+      "value": 0.0685
+    },
+    {
+      "date": "2023-11-27",
+      "series": "tb180",
+      "value": 0.0702
+    },
+    {
+      "date": "2023-11-27",
+      "series": "tb364",
+      "value": 0.0706
+    },
+    {
+      "date": "2023-11-27",
+      "series": "g10y",
+      "value": 0.0715
+    },
+    {
+      "date": "2023-11-27",
+      "series": "usdinr",
+      "value": 83.33
+    },
+    {
+      "date": "2023-11-27",
+      "series": "ust1m",
+      "value": 0.0554
+    },
+    {
+      "date": "2023-11-27",
+      "series": "ust3m",
+      "value": 0.0549
+    },
+    {
+      "date": "2023-11-27",
+      "series": "ust6m",
+      "value": 0.0545
+    },
+    {
+      "date": "2023-11-27",
+      "series": "ust1y",
+      "value": 0.0524
+    },
+    {
+      "date": "2023-11-27",
+      "series": "1M_fwd",
+      "value": 0.007349
+    },
+    {
+      "date": "2023-11-27",
+      "series": "3M_fwd",
+      "value": 0.00948
+    },
+    {
+      "date": "2023-11-27",
+      "series": "6M_fwd",
+      "value": 0.013289
+    },
+    {
+      "date": "2023-12-11",
+      "series": "tb91",
+      "value": 0.0692
+    },
+    {
+      "date": "2023-12-11",
+      "series": "tb180",
+      "value": 0.0711
+    },
+    {
+      "date": "2023-12-11",
+      "series": "tb364",
+      "value": 0.0715
+    },
+    {
+      "date": "2023-12-11",
+      "series": "g10y",
+      "value": 0.073
+    },
+    {
+      "date": "2023-12-11",
+      "series": "usdinr",
+      "value": 83.35
+    },
+    {
+      "date": "2023-12-11",
+      "series": "ust1m",
+      "value": 0.0555
+    },
+    {
+      "date": "2023-12-11",
+      "series": "ust3m",
+      "value": 0.0547
+    },
+    {
+      "date": "2023-12-11",
+      "series": "ust6m",
+      "value": 0.054
+    },
+    {
+      "date": "2023-12-11",
+      "series": "ust1y",
+      "value": 0.0514
+    },
+    {
+      "date": "2023-12-11",
+      "series": "1M_fwd",
+      "value": 0.011366
+    },
+    {
+      "date": "2023-12-11",
+      "series": "3M_fwd",
+      "value": 0.011807
+    },
+    {
+      "date": "2023-12-11",
+      "series": "6M_fwd",
+      "value": 0.014899
+    },
+    {
+      "date": "2023-12-18",
+      "series": "tb91",
+      "value": 0.0687
+    },
+    {
+      "date": "2023-12-18",
+      "series": "tb180",
+      "value": 0.0705
+    },
+    {
+      "date": "2023-12-18",
+      "series": "tb364",
+      "value": 0.0711
+    },
+    {
+      "date": "2023-12-18",
+      "series": "g10y",
+      "value": 0.0726
+    },
+    {
+      "date": "2023-12-18",
+      "series": "usdinr",
+      "value": 83.144
+    },
+    {
+      "date": "2023-12-18",
+      "series": "ust1m",
+      "value": 0.0552
+    },
+    {
+      "date": "2023-12-18",
+      "series": "ust3m",
+      "value": 0.0546
+    },
+    {
+      "date": "2023-12-18",
+      "series": "ust6m",
+      "value": 0.0536
+    },
+    {
+      "date": "2023-12-18",
+      "series": "ust1y",
+      "value": 0.0495
+    },
+    {
+      "date": "2023-12-18",
+      "series": "1M_fwd",
+      "value": 0.012398
+    },
+    {
+      "date": "2023-12-18",
+      "series": "3M_fwd",
+      "value": 0.011854
+    },
+    {
+      "date": "2023-12-18",
+      "series": "6M_fwd",
+      "value": 0.014956
+    },
+    {
+      "date": "2024-01-08",
+      "series": "tb91",
+      "value": 0.0694
+    },
+    {
+      "date": "2024-01-08",
+      "series": "tb180",
+      "value": 0.0715
+    },
+    {
+      "date": "2024-01-08",
+      "series": "tb364",
+      "value": 0.0713
+    },
+    {
+      "date": "2024-01-08",
+      "series": "g10y",
+      "value": 0.0721
+    },
+    {
+      "date": "2024-01-08",
+      "series": "usdinr",
+      "value": 83.045
+    },
+    {
+      "date": "2024-01-08",
+      "series": "ust1m",
+      "value": 0.0554
+    },
+    {
+      "date": "2024-01-08",
+      "series": "ust3m",
+      "value": 0.0549
+    },
+    {
+      "date": "2024-01-08",
+      "series": "ust6m",
+      "value": 0.0524
+    },
+    {
+      "date": "2024-01-08",
+      "series": "ust1y",
+      "value": 0.0482
+    },
+    {
+      "date": "2024-01-08",
+      "series": "1M_fwd",
+      "value": 0.013574
+    },
+    {
+      "date": "2024-01-08",
+      "series": "3M_fwd",
+      "value": 0.013617
+    },
+    {
+      "date": "2024-01-08",
+      "series": "6M_fwd",
+      "value": 0.015828
+    },
+    {
+      "date": "2024-01-15",
+      "series": "tb91",
+      "value": 0.0696
+    },
+    {
+      "date": "2024-01-15",
+      "series": "tb180",
+      "value": 0.0717
+    },
+    {
+      "date": "2024-01-15",
+      "series": "tb364",
+      "value": 0.0715
+    },
+    {
+      "date": "2024-01-15",
+      "series": "g10y",
+      "value": 0.0716
+    },
+    {
+      "date": "2024-01-15",
+      "series": "usdinr",
+      "value": 82.85
+    },
+    {
+      "date": "2024-01-15",
+      "series": "ust1m",
+      "value": 0.0554
+    },
+    {
+      "date": "2024-01-15",
+      "series": "ust3m",
+      "value": 0.0545
+    },
+    {
+      "date": "2024-01-15",
+      "series": "ust6m",
+      "value": 0.0518
+    },
+    {
+      "date": "2024-01-15",
+      "series": "ust1y",
+      "value": 0.047
+    },
+    {
+      "date": "2024-01-15",
+      "series": "1M_fwd",
+      "value": 0.012967
+    },
+    {
+      "date": "2024-01-15",
+      "series": "3M_fwd",
+      "value": 0.01665
+    },
+    {
+      "date": "2024-01-15",
+      "series": "6M_fwd",
+      "value": 0.016714
+    },
+    {
+      "date": "2024-01-22",
+      "series": "tb91",
+      "value": 0.0697
+    },
+    {
+      "date": "2024-01-22",
+      "series": "tb180",
+      "value": 0.0717
+    },
+    {
+      "date": "2024-01-22",
+      "series": "tb364",
+      "value": 0.0715
+    },
+    {
+      "date": "2024-01-22",
+      "series": "g10y",
+      "value": 0.0717
+    },
+    {
+      "date": "2024-01-22",
+      "series": "usdinr",
+      "value": 83.1
+    },
+    {
+      "date": "2024-01-22",
+      "series": "ust1m",
+      "value": 0.0553
+    },
+    {
+      "date": "2024-01-22",
+      "series": "ust3m",
+      "value": 0.0546
+    },
+    {
+      "date": "2024-01-22",
+      "series": "ust6m",
+      "value": 0.0522
+    },
+    {
+      "date": "2024-01-22",
+      "series": "ust1y",
+      "value": 0.0483
+    },
+    {
+      "date": "2024-01-22",
+      "series": "1M_fwd",
+      "value": 0.014442
+    },
+    {
+      "date": "2024-01-22",
+      "series": "3M_fwd",
+      "value": 0.012957
+    },
+    {
+      "date": "2024-01-22",
+      "series": "6M_fwd",
+      "value": 0.015895
+    },
+    {
+      "date": "2024-02-05",
+      "series": "tb91",
+      "value": 0.07
+    },
+    {
+      "date": "2024-02-05",
+      "series": "tb180",
+      "value": 0.0718
+    },
+    {
+      "date": "2024-02-05",
+      "series": "tb364",
+      "value": 0.0715
+    },
+    {
+      "date": "2024-02-05",
+      "series": "g10y",
+      "value": 0.0706
+    },
+    {
+      "date": "2024-02-05",
+      "series": "usdinr",
+      "value": 83.036
+    },
+    {
+      "date": "2024-02-05",
+      "series": "ust1m",
+      "value": 0.0549
+    },
+    {
+      "date": "2024-02-05",
+      "series": "ust3m",
+      "value": 0.0542
+    },
+    {
+      "date": "2024-02-05",
+      "series": "ust6m",
+      "value": 0.0525
+    },
+    {
+      "date": "2024-02-05",
+      "series": "ust1y",
+      "value": 0.0487
+    },
+    {
+      "date": "2024-02-05",
+      "series": "1M_fwd",
+      "value": 0.013576
+    },
+    {
+      "date": "2024-02-05",
+      "series": "3M_fwd",
+      "value": 0.016349
+    },
+    {
+      "date": "2024-02-05",
+      "series": "6M_fwd",
+      "value": 0.015355
+    },
+    {
+      "date": "2024-02-12",
+      "series": "tb91",
+      "value": 0.0701
+    },
+    {
+      "date": "2024-02-12",
+      "series": "tb180",
+      "value": 0.0715
+    },
+    {
+      "date": "2024-02-12",
+      "series": "tb364",
+      "value": 0.0711
+    },
+    {
+      "date": "2024-02-12",
+      "series": "g10y",
+      "value": 0.071
+    },
+    {
+      "date": "2024-02-12",
+      "series": "usdinr",
+      "value": 82.97
+    },
+    {
+      "date": "2024-02-12",
+      "series": "ust1m",
+      "value": 0.0549
+    },
+    {
+      "date": "2024-02-12",
+      "series": "ust3m",
+      "value": 0.0543
+    },
+    {
+      "date": "2024-02-12",
+      "series": "ust6m",
+      "value": 0.0527
+    },
+    {
+      "date": "2024-02-12",
+      "series": "ust1y",
+      "value": 0.0487
+    },
+    {
+      "date": "2024-02-12",
+      "series": "1M_fwd",
+      "value": 0.013286
+    },
+    {
+      "date": "2024-02-12",
+      "series": "3M_fwd",
+      "value": 0.015918
+    },
+    {
+      "date": "2024-02-12",
+      "series": "6M_fwd",
+      "value": 0.015049
+    },
+    {
+      "date": "2024-02-19",
+      "series": "tb91",
+      "value": 0.0702
+    },
+    {
+      "date": "2024-02-19",
+      "series": "tb180",
+      "value": 0.0713
+    },
+    {
+      "date": "2024-02-19",
+      "series": "tb364",
+      "value": 0.0709
+    },
+    {
+      "date": "2024-02-19",
+      "series": "g10y",
+      "value": 0.0708
+    },
+    {
+      "date": "2024-02-19",
+      "series": "usdinr",
+      "value": 83.026
+    },
+    {
+      "date": "2024-02-19",
+      "series": "ust1m",
+      "value": 0.0548
+    },
+    {
+      "date": "2024-02-19",
+      "series": "ust3m",
+      "value": 0.0544
+    },
+    {
+      "date": "2024-02-19",
+      "series": "ust6m",
+      "value": 0.0531
+    },
+    {
+      "date": "2024-02-19",
+      "series": "ust1y",
+      "value": 0.0498
+    },
+    {
+      "date": "2024-02-19",
+      "series": "1M_fwd",
+      "value": 0.011339
+    },
+    {
+      "date": "2024-02-19",
+      "series": "3M_fwd",
+      "value": 0.01576
+    },
+    {
+      "date": "2024-02-19",
+      "series": "6M_fwd",
+      "value": 0.015259
+    },
+    {
+      "date": "2024-02-26",
+      "series": "tb91",
+      "value": 0.0696
+    },
+    {
+      "date": "2024-02-26",
+      "series": "tb180",
+      "value": 0.0716
+    },
+    {
+      "date": "2024-02-26",
+      "series": "tb364",
+      "value": 0.0712
+    },
+    {
+      "date": "2024-02-26",
+      "series": "g10y",
+      "value": 0.0707
+    },
+    {
+      "date": "2024-02-26",
+      "series": "usdinr",
+      "value": 82.85
+    },
+    {
+      "date": "2024-02-26",
+      "series": "ust1m",
+      "value": 0.055
+    },
+    {
+      "date": "2024-02-26",
+      "series": "ust3m",
+      "value": 0.0547
+    },
+    {
+      "date": "2024-02-26",
+      "series": "ust6m",
+      "value": 0.0534
+    },
+    {
+      "date": "2024-02-26",
+      "series": "ust1y",
+      "value": 0.0503
+    },
+    {
+      "date": "2024-02-26",
+      "series": "1M_fwd",
+      "value": 0.010409
+    },
+    {
+      "date": "2024-02-26",
+      "series": "3M_fwd",
+      "value": 0.013946
+    },
+    {
+      "date": "2024-02-26",
+      "series": "6M_fwd",
+      "value": 0.014199
+    },
+    {
+      "date": "2024-03-05",
+      "series": "tb91",
+      "value": 0.0689
+    },
+    {
+      "date": "2024-03-05",
+      "series": "tb180",
+      "value": 0.0715
+    },
+    {
+      "date": "2024-03-05",
+      "series": "tb364",
+      "value": 0.071
+    },
+    {
+      "date": "2024-03-05",
+      "series": "g10y",
+      "value": 0.0705
+    },
+    {
+      "date": "2024-03-05",
+      "series": "usdinr",
+      "value": 82.89
+    },
+    {
+      "date": "2024-03-05",
+      "series": "ust1m",
+      "value": 0.055
+    },
+    {
+      "date": "2024-03-05",
+      "series": "ust3m",
+      "value": 0.0547
+    },
+    {
+      "date": "2024-03-05",
+      "series": "ust6m",
+      "value": 0.0535
+    },
+    {
+      "date": "2024-03-05",
+      "series": "ust1y",
+      "value": 0.0494
+    },
+    {
+      "date": "2024-03-05",
+      "series": "1M_fwd",
+      "value": 0.004491
+    },
+    {
+      "date": "2024-03-05",
+      "series": "3M_fwd",
+      "value": 0.011617
+    },
+    {
+      "date": "2024-03-05",
+      "series": "6M_fwd",
+      "value": 0.013141
+    },
+    {
+      "date": "2024-03-12",
+      "series": "tb91",
+      "value": 0.0689
+    },
+    {
+      "date": "2024-03-12",
+      "series": "tb180",
+      "value": 0.0715
+    },
+    {
+      "date": "2024-03-12",
+      "series": "tb364",
+      "value": 0.071
+    },
+    {
+      "date": "2024-03-12",
+      "series": "g10y",
+      "value": 0.0702
+    },
+    {
+      "date": "2024-03-12",
+      "series": "usdinr",
+      "value": 82.84
+    },
+    {
+      "date": "2024-03-12",
+      "series": "ust1m",
+      "value": 0.0552
+    },
+    {
+      "date": "2024-03-12",
+      "series": "ust3m",
+      "value": 0.0548
+    },
+    {
+      "date": "2024-03-12",
+      "series": "ust6m",
+      "value": 0.0537
+    },
+    {
+      "date": "2024-03-12",
+      "series": "ust1y",
+      "value": 0.05
+    },
+    {
+      "date": "2024-03-12",
+      "series": "1M_fwd",
+      "value": 0.007841
+    },
+    {
+      "date": "2024-03-12",
+      "series": "3M_fwd",
+      "value": 0.011496
+    },
+    {
+      "date": "2024-03-12",
+      "series": "6M_fwd",
+      "value": 0.013228
+    },
+    {
+      "date": "2024-03-19",
+      "series": "tb91",
+      "value": 0.0688
+    },
+    {
+      "date": "2024-03-19",
+      "series": "tb180",
+      "value": 0.07135
+    },
+    {
+      "date": "2024-03-19",
+      "series": "tb364",
+      "value": 0.0709
+    },
+    {
+      "date": "2024-03-19",
+      "series": "g10y",
+      "value": 0.0709
+    },
+    {
+      "date": "2024-03-19",
+      "series": "usdinr",
+      "value": 83.005
+    },
+    {
+      "date": "2024-03-19",
+      "series": "ust1m",
+      "value": 0.0552
+    },
+    {
+      "date": "2024-03-19",
+      "series": "ust3m",
+      "value": 0.0548
+    },
+    {
+      "date": "2024-03-19",
+      "series": "ust6m",
+      "value": 0.0539
+    },
+    {
+      "date": "2024-03-19",
+      "series": "ust1y",
+      "value": 0.0506
+    },
+    {
+      "date": "2024-03-19",
+      "series": "1M_fwd",
+      "value": 0.009946
+    },
+    {
+      "date": "2024-03-19",
+      "series": "3M_fwd",
+      "value": 0.01109
+    },
+    {
+      "date": "2024-03-19",
+      "series": "6M_fwd",
+      "value": 0.012785
+    },
+    {
+      "date": "2024-03-26",
+      "series": "tb91",
+      "value": 0.0688
+    },
+    {
+      "date": "2024-03-26",
+      "series": "tb180",
+      "value": 0.0712
+    },
+    {
+      "date": "2024-03-26",
+      "series": "tb364",
+      "value": 0.0708
+    },
+    {
+      "date": "2024-03-26",
+      "series": "g10y",
+      "value": 0.0708
+    },
+    {
+      "date": "2024-03-26",
+      "series": "usdinr",
+      "value": 83.346
+    },
+    {
+      "date": "2024-03-26",
+      "series": "ust1m",
+      "value": 0.055
+    },
+    {
+      "date": "2024-03-26",
+      "series": "ust3m",
+      "value": 0.0546
+    },
+    {
+      "date": "2024-03-26",
+      "series": "ust6m",
+      "value": 0.0536
+    },
+    {
+      "date": "2024-03-26",
+      "series": "ust1y",
+      "value": 0.05
+    },
+    {
+      "date": "2024-03-26",
+      "series": "1M_fwd",
+      "value": 0.009328
+    },
+    {
+      "date": "2024-03-26",
+      "series": "3M_fwd",
+      "value": 0.01047
+    },
+    {
+      "date": "2024-03-26",
+      "series": "6M_fwd",
+      "value": 0.012601
+    },
+    {
+      "date": "2024-04-09",
+      "series": "tb91",
+      "value": 0.0688
+    },
+    {
+      "date": "2024-04-09",
+      "series": "tb180",
+      "value": 0.0702
+    },
+    {
+      "date": "2024-04-09",
+      "series": "tb364",
+      "value": 0.0704
+    },
+    {
+      "date": "2024-04-09",
+      "series": "g10y",
+      "value": 0.0708
+    },
+    {
+      "date": "2024-04-09",
+      "series": "usdinr",
+      "value": 83.196
+    },
+    {
+      "date": "2024-04-09",
+      "series": "ust1m",
+      "value": 0.0548
+    },
+    {
+      "date": "2024-04-09",
+      "series": "ust3m",
+      "value": 0.0543
+    },
+    {
+      "date": "2024-04-09",
+      "series": "ust6m",
+      "value": 0.0534
+    },
+    {
+      "date": "2024-04-09",
+      "series": "ust1y",
+      "value": 0.0503
+    },
+    {
+      "date": "2024-04-09",
+      "series": "1M_fwd",
+      "value": 0.010543
+    },
+    {
+      "date": "2024-04-09",
+      "series": "3M_fwd",
+      "value": 0.011381
+    },
+    {
+      "date": "2024-04-09",
+      "series": "6M_fwd",
+      "value": 0.013129
+    },
+    {
+      "date": "2024-04-16",
+      "series": "tb91",
+      "value": 0.0687
+    },
+    {
+      "date": "2024-04-16",
+      "series": "tb180",
+      "value": 0.0702
+    },
+    {
+      "date": "2024-04-16",
+      "series": "tb364",
+      "value": 0.0705
+    },
+    {
+      "date": "2024-04-16",
+      "series": "g10y",
+      "value": 0.0714
+    },
+    {
+      "date": "2024-04-16",
+      "series": "usdinr",
+      "value": 83.73
+    },
+    {
+      "date": "2024-04-16",
+      "series": "ust1m",
+      "value": 0.0549
+    },
+    {
+      "date": "2024-04-16",
+      "series": "ust3m",
+      "value": 0.0545
+    },
+    {
+      "date": "2024-04-16",
+      "series": "ust6m",
+      "value": 0.0539
+    },
+    {
+      "date": "2024-04-16",
+      "series": "ust1y",
+      "value": 0.0518
+    },
+    {
+      "date": "2024-04-16",
+      "series": "1M_fwd",
+      "value": 0.010397
+    },
+    {
+      "date": "2024-04-16",
+      "series": "3M_fwd",
+      "value": 0.011558
+    },
+    {
+      "date": "2024-04-16",
+      "series": "6M_fwd",
+      "value": 0.013047
+    },
+    {
+      "date": "2024-04-23",
+      "series": "tb91",
+      "value": 0.0691
+    },
+    {
+      "date": "2024-04-23",
+      "series": "tb180",
+      "value": 0.07015
+    },
+    {
+      "date": "2024-04-23",
+      "series": "tb364",
+      "value": 0.0706
+    },
+    {
+      "date": "2024-04-23",
+      "series": "g10y",
+      "value": 0.0713
+    },
+    {
+      "date": "2024-04-23",
+      "series": "usdinr",
+      "value": 83.27
+    },
+    {
+      "date": "2024-04-23",
+      "series": "ust1m",
+      "value": 0.0549
+    },
+    {
+      "date": "2024-04-23",
+      "series": "ust3m",
+      "value": 0.0545
+    },
+    {
+      "date": "2024-04-23",
+      "series": "ust6m",
+      "value": 0.0539
+    },
+    {
+      "date": "2024-04-23",
+      "series": "ust1y",
+      "value": 0.0514
+    },
+    {
+      "date": "2024-05-21",
+      "series": "tb91",
+      "value": 0.0699
+    },
+    {
+      "date": "2024-05-21",
+      "series": "tb180",
+      "value": 0.07085
+    },
+    {
+      "date": "2024-05-21",
+      "series": "tb364",
+      "value": 0.0708
+    },
+    {
+      "date": "2024-05-21",
+      "series": "g10y",
+      "value": 0.0708
+    },
+    {
+      "date": "2024-05-21",
+      "series": "usdinr",
+      "value": 83.32
+    },
+    {
+      "date": "2024-05-21",
+      "series": "ust1m",
+      "value": 0.055
+    },
+    {
+      "date": "2024-05-21",
+      "series": "ust3m",
+      "value": 0.0545
+    },
+    {
+      "date": "2024-05-21",
+      "series": "ust6m",
+      "value": 0.0542
+    },
+    {
+      "date": "2024-05-21",
+      "series": "ust1y",
+      "value": 0.0514
+    },
+    {
+      "date": "2024-05-28",
+      "series": "tb91",
+      "value": 0.0685
+    },
+    {
+      "date": "2024-05-28",
+      "series": "tb180",
+      "value": 0.0701
+    },
+    {
+      "date": "2024-05-28",
+      "series": "tb364",
+      "value": 0.0702
+    },
+    {
+      "date": "2024-05-28",
+      "series": "g10y",
+      "value": 0.0698
+    },
+    {
+      "date": "2024-05-28",
+      "series": "usdinr",
+      "value": 83.16
+    },
+    {
+      "date": "2024-05-28",
+      "series": "ust1m",
+      "value": 0.055
+    },
+    {
+      "date": "2024-05-28",
+      "series": "ust3m",
+      "value": 0.0546
+    },
+    {
+      "date": "2024-05-28",
+      "series": "ust6m",
+      "value": 0.0543
+    },
+    {
+      "date": "2024-05-28",
+      "series": "ust1y",
+      "value": 0.0521
+    },
+    {
+      "date": "2024-05-28",
+      "series": "1M_fwd",
+      "value": 0.011379
+    },
+    {
+      "date": "2024-05-28",
+      "series": "3M_fwd",
+      "value": 0.012191
+    },
+    {
+      "date": "2024-05-28",
+      "series": "6M_fwd",
+      "value": 0.013544
+    },
+    {
+      "date": "2024-06-11",
+      "series": "tb91",
+      "value": 0.0688
+    },
+    {
+      "date": "2024-06-11",
+      "series": "tb180",
+      "value": 0.0702
+    },
+    {
+      "date": "2024-06-11",
+      "series": "tb364",
+      "value": 0.0703
+    },
+    {
+      "date": "2024-06-11",
+      "series": "g10y",
+      "value": 0.0701
+    },
+    {
+      "date": "2024-06-11",
+      "series": "usdinr",
+      "value": 83.6
+    },
+    {
+      "date": "2024-06-11",
+      "series": "ust1m",
+      "value": 0.0546
+    },
+    {
+      "date": "2024-06-11",
+      "series": "ust3m",
+      "value": 0.0552
+    },
+    {
+      "date": "2024-06-11",
+      "series": "ust6m",
+      "value": 0.0539
+    },
+    {
+      "date": "2024-06-11",
+      "series": "ust1y",
+      "value": 0.0517
+    },
+    {
+      "date": "2024-06-11",
+      "series": "1M_fwd",
+      "value": 0.01111
+    },
+    {
+      "date": "2024-06-11",
+      "series": "3M_fwd",
+      "value": 0.011657
+    },
+    {
+      "date": "2024-06-11",
+      "series": "6M_fwd",
+      "value": 0.013129
+    },
+    {
+      "date": "2024-06-18",
+      "series": "tb91",
+      "value": 0.0684
+    },
+    {
+      "date": "2024-06-18",
+      "series": "tb180",
+      "value": 0.0699
+    },
+    {
+      "date": "2024-06-18",
+      "series": "tb364",
+      "value": 0.0701
+    },
+    {
+      "date": "2024-06-18",
+      "series": "g10y",
+      "value": 0.0698
+    },
+    {
+      "date": "2024-06-18",
+      "series": "usdinr",
+      "value": 83.33
+    },
+    {
+      "date": "2024-06-18",
+      "series": "ust1m",
+      "value": 0.054
+    },
+    {
+      "date": "2024-06-18",
+      "series": "ust3m",
+      "value": 0.055
+    },
+    {
+      "date": "2024-06-18",
+      "series": "ust6m",
+      "value": 0.0537
+    },
+    {
+      "date": "2024-06-18",
+      "series": "ust1y",
+      "value": 0.0509
+    },
+    {
+      "date": "2024-06-18",
+      "series": "1M_fwd",
+      "value": 0.010941
+    },
+    {
+      "date": "2024-06-18",
+      "series": "3M_fwd",
+      "value": 0.011765
+    },
+    {
+      "date": "2024-06-18",
+      "series": "6M_fwd",
+      "value": 0.013301
+    },
+    {
+      "date": "2024-06-25",
+      "series": "tb91",
+      "value": 0.0682
+    },
+    {
+      "date": "2024-06-25",
+      "series": "tb180",
+      "value": 0.0696
+    },
+    {
+      "date": "2024-06-25",
+      "series": "tb364",
+      "value": 0.0698
+    },
+    {
+      "date": "2024-06-25",
+      "series": "g10y",
+      "value": 0.0698
+    },
+    {
+      "date": "2024-06-25",
+      "series": "usdinr",
+      "value": 83.403
+    },
+    {
+      "date": "2024-06-25",
+      "series": "ust1m",
+      "value": 0.0543
+    },
+    {
+      "date": "2024-06-25",
+      "series": "ust3m",
+      "value": 0.0549
+    },
+    {
+      "date": "2024-06-25",
+      "series": "ust6m",
+      "value": 0.0537
+    },
+    {
+      "date": "2024-06-25",
+      "series": "ust1y",
+      "value": 0.051
+    },
+    {
+      "date": "2024-06-25",
+      "series": "1M_fwd",
+      "value": 0.010635
+    },
+    {
+      "date": "2024-06-25",
+      "series": "3M_fwd",
+      "value": 0.011207
+    },
+    {
+      "date": "2024-06-25",
+      "series": "6M_fwd",
+      "value": 0.012923
+    },
+    {
+      "date": "2024-07-09",
+      "series": "tb91",
+      "value": 0.0675
+    },
+    {
+      "date": "2024-07-09",
+      "series": "tb180",
+      "value": 0.0687
+    },
+    {
+      "date": "2024-07-09",
+      "series": "tb364",
+      "value": 0.0692
+    },
+    {
+      "date": "2024-07-09",
+      "series": "g10y",
+      "value": 0.0698
+    },
+    {
+      "date": "2024-07-09",
+      "series": "usdinr",
+      "value": 83.465
+    },
+    {
+      "date": "2024-07-09",
+      "series": "ust1m",
+      "value": 0.0545
+    },
+    {
+      "date": "2024-07-09",
+      "series": "ust3m",
+      "value": 0.0546
+    },
+    {
+      "date": "2024-07-09",
+      "series": "ust6m",
+      "value": 0.0534
+    },
+    {
+      "date": "2024-07-09",
+      "series": "ust1y",
+      "value": 0.0502
+    },
+    {
+      "date": "2024-07-09",
+      "series": "1M_fwd",
+      "value": 0.011243
+    },
+    {
+      "date": "2024-07-09",
+      "series": "3M_fwd",
+      "value": 0.011708
+    },
+    {
+      "date": "2024-07-09",
+      "series": "6M_fwd",
+      "value": 0.0133
+    },
+    {
+      "date": "2024-07-16",
+      "series": "tb91",
+      "value": 0.0676
+    },
+    {
+      "date": "2024-07-16",
+      "series": "tb180",
+      "value": 0.0687
+    },
+    {
+      "date": "2024-07-16",
+      "series": "tb364",
+      "value": 0.0691
+    },
+    {
+      "date": "2024-07-16",
+      "series": "g10y",
+      "value": 0.0698
+    },
+    {
+      "date": "2024-07-16",
+      "series": "usdinr",
+      "value": 83.524
+    },
+    {
+      "date": "2024-07-16",
+      "series": "ust1m",
+      "value": 0.0548
+    },
+    {
+      "date": "2024-07-16",
+      "series": "ust3m",
+      "value": 0.0543
+    },
+    {
+      "date": "2024-07-16",
+      "series": "ust6m",
+      "value": 0.0523
+    },
+    {
+      "date": "2024-07-16",
+      "series": "ust1y",
+      "value": 0.0485
+    },
+    {
+      "date": "2024-07-16",
+      "series": "1M_fwd",
+      "value": 0.010656
+    },
+    {
+      "date": "2024-07-16",
+      "series": "3M_fwd",
+      "value": 0.011862
+    },
+    {
+      "date": "2024-07-16",
+      "series": "6M_fwd",
+      "value": 0.013813
+    },
+    {
+      "date": "2024-07-23",
+      "series": "tb91",
+      "value": 0.0674
+    },
+    {
+      "date": "2024-07-23",
+      "series": "tb180",
+      "value": 0.0685
+    },
+    {
+      "date": "2024-07-23",
+      "series": "tb364",
+      "value": 0.0687
+    },
+    {
+      "date": "2024-07-23",
+      "series": "g10y",
+      "value": 0.0697
+    },
+    {
+      "date": "2024-07-23",
+      "series": "usdinr",
+      "value": 83.707
+    },
+    {
+      "date": "2024-07-23",
+      "series": "ust1m",
+      "value": 0.0549
+    },
+    {
+      "date": "2024-07-23",
+      "series": "ust3m",
+      "value": 0.0541
+    },
+    {
+      "date": "2024-07-23",
+      "series": "ust6m",
+      "value": 0.0522
+    },
+    {
+      "date": "2024-07-23",
+      "series": "ust1y",
+      "value": 0.0485
+    },
+    {
+      "date": "2024-07-23",
+      "series": "1M_fwd",
+      "value": 0.011128
+    },
+    {
+      "date": "2024-07-23",
+      "series": "3M_fwd",
+      "value": 0.011941
+    },
+    {
+      "date": "2024-07-23",
+      "series": "6M_fwd",
+      "value": 0.014016
+    },
+    {
+      "date": "2024-08-06",
+      "series": "tb91",
+      "value": 0.0667
+    },
+    {
+      "date": "2024-08-06",
+      "series": "tb180",
+      "value": 0.0678
+    },
+    {
+      "date": "2024-08-06",
+      "series": "tb364",
+      "value": 0.0679
+    },
+    {
+      "date": "2024-08-06",
+      "series": "g10y",
+      "value": 0.0687
+    },
+    {
+      "date": "2024-08-06",
+      "series": "usdinr",
+      "value": 83.94
+    },
+    {
+      "date": "2024-08-06",
+      "series": "ust1m",
+      "value": 0.055
+    },
+    {
+      "date": "2024-08-06",
+      "series": "ust3m",
+      "value": 0.0534
+    },
+    {
+      "date": "2024-08-06",
+      "series": "ust6m",
+      "value": 0.05
+    },
+    {
+      "date": "2024-08-06",
+      "series": "ust1y",
+      "value": 0.0446
+    },
+    {
+      "date": "2024-08-13",
+      "series": "tb91",
+      "value": 0.0663
+    },
+    {
+      "date": "2024-08-13",
+      "series": "tb180",
+      "value": 0.0673
+    },
+    {
+      "date": "2024-08-13",
+      "series": "tb364",
+      "value": 0.0673
+    },
+    {
+      "date": "2024-08-13",
+      "series": "g10y",
+      "value": 0.0688
+    },
+    {
+      "date": "2024-08-13",
+      "series": "usdinr",
+      "value": 83.93
+    },
+    {
+      "date": "2024-08-13",
+      "series": "ust1m",
+      "value": 0.0548
+    },
+    {
+      "date": "2024-08-13",
+      "series": "ust3m",
+      "value": 0.0532
+    },
+    {
+      "date": "2024-08-13",
+      "series": "ust6m",
+      "value": 0.0497
+    },
+    {
+      "date": "2024-08-13",
+      "series": "ust1y",
+      "value": 0.044
+    },
+    {
+      "date": "2024-08-20",
+      "series": "tb91",
+      "value": 0.0661
+    },
+    {
+      "date": "2024-08-20",
+      "series": "tb180",
+      "value": 0.0673
+    },
+    {
+      "date": "2024-08-20",
+      "series": "tb364",
+      "value": 0.0672
+    },
+    {
+      "date": "2024-08-20",
+      "series": "g10y",
+      "value": 0.0685
+    },
+    {
+      "date": "2024-08-20",
+      "series": "usdinr",
+      "value": 83.9
+    },
+    {
+      "date": "2024-08-20",
+      "series": "ust1m",
+      "value": 0.0548
+    },
+    {
+      "date": "2024-08-20",
+      "series": "ust3m",
+      "value": 0.0529
+    },
+    {
+      "date": "2024-08-20",
+      "series": "ust6m",
+      "value": 0.0497
+    },
+    {
+      "date": "2024-08-20",
+      "series": "ust1y",
+      "value": 0.0443
+    },
+    {
+      "date": "2024-08-27",
+      "series": "tb91",
+      "value": 0.0663
+    },
+    {
+      "date": "2024-08-27",
+      "series": "tb180",
+      "value": 0.0672
+    },
+    {
+      "date": "2024-08-27",
+      "series": "tb364",
+      "value": 0.0672
+    },
+    {
+      "date": "2024-08-27",
+      "series": "g10y",
+      "value": 0.0686
+    },
+    {
+      "date": "2024-08-27",
+      "series": "usdinr",
+      "value": 83.91
+    },
+    {
+      "date": "2024-08-27",
+      "series": "ust1m",
+      "value": 0.0549
+    },
+    {
+      "date": "2024-08-27",
+      "series": "ust3m",
+      "value": 0.0523
+    },
+    {
+      "date": "2024-08-27",
+      "series": "ust6m",
+      "value": 0.0489
+    },
+    {
+      "date": "2024-08-27",
+      "series": "ust1y",
+      "value": 0.0434
+    },
+    {
+      "date": "2024-09-10",
+      "series": "tb91",
+      "value": 0.0664
+    },
+    {
+      "date": "2024-09-10",
+      "series": "tb180",
+      "value": 0.0672
+    },
+    {
+      "date": "2024-09-10",
+      "series": "tb364",
+      "value": 0.067
+    },
+    {
+      "date": "2024-09-10",
+      "series": "g10y",
+      "value": 0.0685
+    },
+    {
+      "date": "2024-09-10",
+      "series": "usdinr",
+      "value": 83.98
+    },
+    {
+      "date": "2024-09-10",
+      "series": "ust1m",
+      "value": 0.0518
+    },
+    {
+      "date": "2024-09-10",
+      "series": "ust3m",
+      "value": 0.0506
+    },
+    {
+      "date": "2024-09-10",
+      "series": "ust6m",
+      "value": 0.0465
+    },
+    {
+      "date": "2024-09-10",
+      "series": "ust1y",
+      "value": 0.0407
+    },
+    {
+      "date": "2024-09-17",
+      "series": "tb91",
+      "value": 0.0665
+    },
+    {
+      "date": "2024-09-17",
+      "series": "tb180",
+      "value": 0.0672
+    },
+    {
+      "date": "2024-09-17",
+      "series": "tb364",
+      "value": 0.067
+    },
+    {
+      "date": "2024-09-17",
+      "series": "g10y",
+      "value": 0.0677
+    },
+    {
+      "date": "2024-09-17",
+      "series": "usdinr",
+      "value": 83.73
+    },
+    {
+      "date": "2024-09-17",
+      "series": "ust1m",
+      "value": 0.0505
+    },
+    {
+      "date": "2024-09-17",
+      "series": "ust3m",
+      "value": 0.0495
+    },
+    {
+      "date": "2024-09-17",
+      "series": "ust6m",
+      "value": 0.0455
+    },
+    {
+      "date": "2024-09-17",
+      "series": "ust1y",
+      "value": 0.0399
+    },
+    {
+      "date": "2024-09-24",
+      "series": "tb91",
+      "value": 0.0664
+    },
+    {
+      "date": "2024-09-24",
+      "series": "tb180",
+      "value": 0.0662
+    },
+    {
+      "date": "2024-09-24",
+      "series": "tb364",
+      "value": 0.067
+    },
+    {
+      "date": "2024-09-24",
+      "series": "g10y",
+      "value": 0.0675
+    },
+    {
+      "date": "2024-09-24",
+      "series": "usdinr",
+      "value": 83.57
+    },
+    {
+      "date": "2024-09-24",
+      "series": "ust1m",
+      "value": 0.0478
+    },
+    {
+      "date": "2024-09-24",
+      "series": "ust3m",
+      "value": 0.0469
+    },
+    {
+      "date": "2024-09-24",
+      "series": "ust6m",
+      "value": 0.0436
+    },
+    {
+      "date": "2024-09-24",
+      "series": "ust1y",
+      "value": 0.0388
+    },
+    {
+      "date": "2024-10-15",
+      "series": "tb91",
+      "value": 0.0643
+    },
+    {
+      "date": "2024-10-15",
+      "series": "tb180",
+      "value": 0.0653
+    },
+    {
+      "date": "2024-10-15",
+      "series": "tb364",
+      "value": 0.0652
+    },
+    {
+      "date": "2024-10-15",
+      "series": "g10y",
+      "value": 0.0677
+    },
+    {
+      "date": "2024-10-15",
+      "series": "usdinr",
+      "value": 84.04
+    },
+    {
+      "date": "2024-10-15",
+      "series": "ust1m",
+      "value": 0.0493
+    },
+    {
+      "date": "2024-10-15",
+      "series": "ust3m",
+      "value": 0.0473
+    },
+    {
+      "date": "2024-10-15",
+      "series": "ust6m",
+      "value": 0.0442
+    },
+    {
+      "date": "2024-10-15",
+      "series": "ust1y",
+      "value": 0.0418
+    },
+    {
+      "date": "2024-11-12",
+      "series": "tb91",
+      "value": 0.0644
+    },
+    {
+      "date": "2024-11-12",
+      "series": "tb180",
+      "value": 0.0663
+    },
+    {
+      "date": "2024-11-12",
+      "series": "tb364",
+      "value": 0.066
+    },
+    {
+      "date": "2024-11-12",
+      "series": "g10y",
+      "value": 0.0683
+    },
+    {
+      "date": "2024-11-12",
+      "series": "usdinr",
+      "value": 84.39
+    },
+    {
+      "date": "2024-11-12",
+      "series": "ust1m",
+      "value": 0.047
+    },
+    {
+      "date": "2024-11-12",
+      "series": "ust3m",
+      "value": 0.0463
+    },
+    {
+      "date": "2024-11-12",
+      "series": "ust6m",
+      "value": 0.0445
+    },
+    {
+      "date": "2024-11-12",
+      "series": "ust1y",
+      "value": 0.0438
+    },
+    {
+      "date": "2025-01-07",
+      "series": "tb91",
+      "value": 0.066
+    },
+    {
+      "date": "2025-01-07",
+      "series": "tb180",
+      "value": 0.0672
+    },
+    {
+      "date": "2025-01-07",
+      "series": "tb364",
+      "value": 0.067
+    },
+    {
+      "date": "2025-01-07",
+      "series": "g10y",
+      "value": 0.0674
+    },
+    {
+      "date": "2025-01-07",
+      "series": "usdinr",
+      "value": 85.88
+    },
+    {
+      "date": "2025-01-07",
+      "series": "ust1m",
+      "value": 0.0442
+    },
+    {
+      "date": "2025-01-07",
+      "series": "ust3m",
+      "value": 0.0435
+    },
+    {
+      "date": "2025-01-07",
+      "series": "ust6m",
+      "value": 0.0424
+    },
+    {
+      "date": "2025-01-07",
+      "series": "ust1y",
+      "value": 0.0419
+    },
+    {
+      "date": "2025-01-14",
+      "series": "tb91",
+      "value": 0.066
+    },
+    {
+      "date": "2025-01-14",
+      "series": "tb180",
+      "value": 0.0672
+    },
+    {
+      "date": "2025-01-14",
+      "series": "tb364",
+      "value": 0.067
+    },
+    {
+      "date": "2025-01-14",
+      "series": "g10y",
+      "value": 0.0681
+    },
+    {
+      "date": "2025-01-14",
+      "series": "usdinr",
+      "value": 86.42
+    },
+    {
+      "date": "2025-01-14",
+      "series": "ust1m",
+      "value": 0.0442
+    },
+    {
+      "date": "2025-01-14",
+      "series": "ust3m",
+      "value": 0.0436
+    },
+    {
+      "date": "2025-01-14",
+      "series": "ust6m",
+      "value": 0.0429
+    },
+    {
+      "date": "2025-01-14",
+      "series": "ust1y",
+      "value": 0.0422
+    },
+    {
+      "date": "2025-01-21",
+      "series": "tb91",
+      "value": 0.0661
+    },
+    {
+      "date": "2025-01-21",
+      "series": "tb180",
+      "value": 0.0671
+    },
+    {
+      "date": "2025-01-21",
+      "series": "tb364",
+      "value": 0.0668
+    },
+    {
+      "date": "2025-01-21",
+      "series": "g10y",
+      "value": 0.0673
+    },
+    {
+      "date": "2025-01-21",
+      "series": "usdinr",
+      "value": 86.43
+    },
+    {
+      "date": "2025-01-21",
+      "series": "ust1m",
+      "value": 0.0442
+    },
+    {
+      "date": "2025-01-21",
+      "series": "ust3m",
+      "value": 0.0436
+    },
+    {
+      "date": "2025-01-21",
+      "series": "ust6m",
+      "value": 0.0428
+    },
+    {
+      "date": "2025-01-21",
+      "series": "ust1y",
+      "value": 0.0421
+    },
+    {
+      "date": "2025-01-28",
+      "series": "tb91",
+      "value": 0.0656
+    },
+    {
+      "date": "2025-01-28",
+      "series": "tb180",
+      "value": 0.0667
+    },
+    {
+      "date": "2025-01-28",
+      "series": "tb364",
+      "value": 0.0663
+    },
+    {
+      "date": "2025-01-28",
+      "series": "g10y",
+      "value": 0.0669
+    },
+    {
+      "date": "2025-01-28",
+      "series": "usdinr",
+      "value": 86.64
+    },
+    {
+      "date": "2025-01-28",
+      "series": "ust1m",
+      "value": 0.0444
+    },
+    {
+      "date": "2025-01-28",
+      "series": "ust3m",
+      "value": 0.0431
+    },
+    {
+      "date": "2025-01-28",
+      "series": "ust6m",
+      "value": 0.0426
+    },
+    {
+      "date": "2025-01-28",
+      "series": "ust1y",
+      "value": 0.0414
+    },
+    {
+      "date": "2025-02-11",
+      "series": "tb91",
+      "value": 0.0644
+    },
+    {
+      "date": "2025-02-11",
+      "series": "tb180",
+      "value": 0.0656
+    },
+    {
+      "date": "2025-02-11",
+      "series": "tb364",
+      "value": 0.0655
+    },
+    {
+      "date": "2025-02-11",
+      "series": "g10y",
+      "value": 0.067
+    },
+    {
+      "date": "2025-02-11",
+      "series": "usdinr",
+      "value": 86.81
+    },
+    {
+      "date": "2025-02-11",
+      "series": "ust1m",
+      "value": 0.0438
+    },
+    {
+      "date": "2025-02-11",
+      "series": "ust3m",
+      "value": 0.0435
+    },
+    {
+      "date": "2025-02-11",
+      "series": "ust6m",
+      "value": 0.0431
+    },
+    {
+      "date": "2025-02-11",
+      "series": "ust1y",
+      "value": 0.0425
+    },
+    {
+      "date": "2025-02-18",
+      "series": "tb91",
+      "value": 0.0644
+    },
+    {
+      "date": "2025-02-18",
+      "series": "tb180",
+      "value": 0.0657
+    },
+    {
+      "date": "2025-02-18",
+      "series": "tb364",
+      "value": 0.0655
+    },
+    {
+      "date": "2025-02-18",
+      "series": "g10y",
+      "value": 0.0669
+    },
+    {
+      "date": "2025-02-18",
+      "series": "usdinr",
+      "value": 86.85
+    },
+    {
+      "date": "2025-02-18",
+      "series": "ust1m",
+      "value": 0.0438
+    },
+    {
+      "date": "2025-02-18",
+      "series": "ust3m",
+      "value": 0.0434
+    },
+    {
+      "date": "2025-02-18",
+      "series": "ust6m",
+      "value": 0.0434
+    },
+    {
+      "date": "2025-02-18",
+      "series": "ust1y",
+      "value": 0.0424
+    },
+    {
+      "date": "2025-03-11",
+      "series": "tb91",
+      "value": 0.0649
+    },
+    {
+      "date": "2025-03-11",
+      "series": "tb180",
+      "value": 0.0661
+    },
+    {
+      "date": "2025-03-11",
+      "series": "tb364",
+      "value": 0.0656
+    },
+    {
+      "date": "2025-03-11",
+      "series": "g10y",
+      "value": 0.0669
+    },
+    {
+      "date": "2025-03-11",
+      "series": "usdinr",
+      "value": 87.2
+    },
+    {
+      "date": "2025-03-11",
+      "series": "ust1m",
+      "value": 0.0437
+    },
+    {
+      "date": "2025-03-11",
+      "series": "ust3m",
+      "value": 0.0434
+    },
+    {
+      "date": "2025-03-11",
+      "series": "ust6m",
+      "value": 0.0426
+    },
+    {
+      "date": "2025-03-11",
+      "series": "ust1y",
+      "value": 0.0403
+    },
+    {
+      "date": "2025-03-18",
+      "series": "tb91",
+      "value": 0.0649
+    },
+    {
+      "date": "2025-03-18",
+      "series": "tb180",
+      "value": 0.0661
+    },
+    {
+      "date": "2025-03-18",
+      "series": "tb364",
+      "value": 0.0656
+    },
+    {
+      "date": "2025-03-18",
+      "series": "g10y",
+      "value": 0.0668
+    },
+    {
+      "date": "2025-03-18",
+      "series": "usdinr",
+      "value": 86.67
+    },
+    {
+      "date": "2025-03-18",
+      "series": "ust1m",
+      "value": 0.0437
+    },
+    {
+      "date": "2025-03-18",
+      "series": "ust3m",
+      "value": 0.0434
+    },
+    {
+      "date": "2025-03-18",
+      "series": "ust6m",
+      "value": 0.0429
+    },
+    {
+      "date": "2025-03-18",
+      "series": "ust1y",
+      "value": 0.0413
+    }
+  ],
+  "maturityBuckets": [
+    {
+      "period": "Upto 1 months",
+      "debts": 250.35781192899594,
+      "mutualFunds": 353.421566577,
+      "order": 1
+    },
+    {
+      "period": "Upto 2 months",
+      "debts": 274.44009284353024,
+      "mutualFunds": 0.0,
+      "order": 2
+    },
+    {
+      "period": "Upto 3 months",
+      "debts": 418.32443078534783,
+      "mutualFunds": 0.0,
+      "order": 3
+    },
+    {
+      "period": "Upto 6 months",
+      "debts": 1680.1880280438486,
+      "mutualFunds": 0.0,
+      "order": 4
+    },
+    {
+      "period": "Upto 12 months",
+      "debts": 1784.2062135185736,
+      "mutualFunds": 120.89246044100001,
+      "order": 5
+    },
+    {
+      "period": "More than 12 months",
+      "debts": 1903.7353711164383,
+      "mutualFunds": 0.0,
+      "order": 6
+    }
+  ],
+  "mediaItems": [
+    {
+      "issuer": "Yes Bank",
+      "severity": "high",
+      "date": "2026-06-27",
+      "source": "Mint",
+      "headline": "Yes Bank reports rise in slippages; analysts flag asset-quality pressure in unsecured book",
+      "summary": "Gross NPA ticked up QoQ on stress in the microfinance and personal-loan segments. Two brokerages moved to 'reduce'. Relevant to deposit exposure held under Meesho Limited and Technologies."
+    },
+    {
+      "issuer": "RBL Bank",
+      "severity": "high",
+      "date": "2026-06-25",
+      "source": "Economic Times",
+      "headline": "RBL Bank under RBI lens over credit-card and MFI provisioning norms",
+      "summary": "Regulator reportedly sought additional provisioning details. Stock fell 6 percent. RBL carries IPO-fund FDs - monitor for any rating watch."
+    },
+    {
+      "issuer": "M&M Finance",
+      "severity": "medium",
+      "date": "2026-06-24",
+      "source": "Business Standard",
+      "headline": "Mahindra Finance flags higher rural delinquencies amid uneven monsoon",
+      "summary": "Management guided to elevated credit costs for the quarter. No rating action yet; bond exposure held under Valmo Transportation."
+    },
+    {
+      "issuer": "IDFC Bank",
+      "severity": "medium",
+      "date": "2026-06-23",
+      "source": "Moneycontrol",
+      "headline": "IDFC First Bank NIM compression continues as deposit costs stay sticky",
+      "summary": "Net interest margin narrowed for a third straight quarter. Small FD exposure only."
+    },
+    {
+      "issuer": "HDB Financial",
+      "severity": "low",
+      "date": "2026-06-22",
+      "source": "CNBC-TV18",
+      "headline": "HDB Financial Services sees modest uptick in two-wheeler loan delinquencies",
+      "summary": "Within guided range; management called it seasonal. AAA rating affirmed by CRISIL last month."
+    },
+    {
+      "issuer": "Bajaj Finance",
+      "severity": "low",
+      "date": "2026-06-20",
+      "source": "Reuters",
+      "headline": "Bajaj Finance AUM growth moderates as it tightens unsecured underwriting",
+      "summary": "Deliberate slowdown in unsecured lending; balance-sheet quality intact. AAA / stable."
+    },
+    {
+      "issuer": "Tata Capital",
+      "severity": "positive",
+      "date": "2026-06-26",
+      "source": "CRISIL",
+      "headline": "CRISIL reaffirms Tata Capital AAA/Stable on strong parentage and capital buffers",
+      "summary": "Rating agency cited robust capitalisation and Tata group support. Largest single corporate-bond issuer in the book."
+    },
+    {
+      "issuer": "SBI Bank",
+      "severity": "positive",
+      "date": "2026-06-19",
+      "source": "ICRA",
+      "headline": "SBI reports record quarterly profit; asset quality at multi-year best",
+      "summary": "GNPA at decade low; strong deposit franchise. Large FD counterparty across entities."
+    },
+    {
+      "issuer": "Aditya Birla Finance",
+      "severity": "medium",
+      "date": "2026-06-21",
+      "source": "Mint",
+      "headline": "Aditya Birla Capital NBFC arm raises cost-of-funds guidance for FY27",
+      "summary": "Funding-cost pressure noted but ratings unaffected. Held as both bond and liquid-MF exposure."
+    },
+    {
+      "issuer": "Axis Bank",
+      "severity": "low",
+      "date": "2026-06-18",
+      "source": "Bloomberg",
+      "headline": "Axis Bank flags slower fee-income growth; maintains stable outlook",
+      "summary": "Largest single counterparty in the book (IPO + non-IPO FDs). No asset-quality concerns flagged."
+    },
+    {
+      "issuer": "Kotak Bank",
+      "severity": "positive",
+      "date": "2026-06-17",
+      "source": "Economic Times",
+      "headline": "Kotak Mahindra Bank well-capitalised; CET-1 among the highest in sector",
+      "summary": "Strong capital position reaffirmed. Significant IPO-fund FD counterparty."
+    },
+    {
+      "issuer": "NABARD",
+      "severity": "positive",
+      "date": "2026-06-15",
+      "source": "ICRA",
+      "headline": "NABARD AAA reaffirmed; sovereign-backed development financier",
+      "summary": "Quasi-sovereign credit, highest safety. Held via NCD."
+    }
+  ],
+  "candidates": [
+    {
+      "issuer": "REC Limited",
+      "name": "7.44% REC 2029",
+      "isin": "INE020B08DR5",
+      "sector": "PSU",
+      "rating": "AAA",
+      "ytm": 0.0745,
+      "maturity": "2029-05-15",
+      "lot": 1.0,
+      "sample": true
+    },
+    {
+      "issuer": "Power Finance Corporation",
+      "name": "7.38% PFC 2028",
+      "isin": "INE134E08NL2",
+      "sector": "PSU",
+      "rating": "AAA",
+      "ytm": 0.074,
+      "maturity": "2028-08-10",
+      "lot": 1.0,
+      "sample": true
+    },
+    {
+      "issuer": "NABARD",
+      "name": "7.30% NABARD 2028",
+      "isin": "INE261F08EK9",
+      "sector": "PSU",
+      "rating": "AAA",
+      "ytm": 0.0732,
+      "maturity": "2028-06-30",
+      "lot": 1.0,
+      "sample": true
+    },
+    {
+      "issuer": "NTPC Limited",
+      "name": "7.25% NTPC 2029",
+      "isin": "INE733E08213",
+      "sector": "PSU",
+      "rating": "AAA",
+      "ytm": 0.0728,
+      "maturity": "2029-03-20",
+      "lot": 1.0,
+      "sample": true
+    },
+    {
+      "issuer": "Indian Railway Finance Corp",
+      "name": "7.22% IRFC 2029",
+      "isin": "INE053F07CH8",
+      "sector": "PSU",
+      "rating": "AAA",
+      "ytm": 0.0722,
+      "maturity": "2029-01-25",
+      "lot": 1.0,
+      "sample": true
+    },
+    {
+      "issuer": "SIDBI",
+      "name": "7.35% SIDBI 2027",
+      "isin": "INE556F08KM3",
+      "sector": "PSU",
+      "rating": "AAA",
+      "ytm": 0.0737,
+      "maturity": "2027-12-15",
+      "lot": 1.0,
+      "sample": true
+    },
+    {
+      "issuer": "LIC Housing Finance",
+      "name": "7.55% LICHF 2028",
+      "isin": "INE115A07QT8",
+      "sector": "NBFC",
+      "rating": "AAA",
+      "ytm": 0.0758,
+      "maturity": "2028-11-05",
+      "lot": 0.1,
+      "sample": true
+    },
+    {
+      "issuer": "Bajaj Housing Finance",
+      "name": "7.60% BHFL 2028",
+      "isin": "INE377Y07330",
+      "sector": "NBFC",
+      "rating": "AAA",
+      "ytm": 0.0762,
+      "maturity": "2028-09-12",
+      "lot": 0.1,
+      "sample": true
+    },
+    {
+      "issuer": "Sundaram Finance",
+      "name": "7.70% Sundaram 2028",
+      "isin": "INE660A08EF9",
+      "sector": "NBFC",
+      "rating": "AAA",
+      "ytm": 0.0772,
+      "maturity": "2028-04-18",
+      "lot": 0.1,
+      "sample": true
+    },
+    {
+      "issuer": "Tata Capital",
+      "name": "7.68% Tata Cap 2029",
+      "isin": "INE976I08079",
+      "sector": "NBFC",
+      "rating": "AAA",
+      "ytm": 0.0768,
+      "maturity": "2029-02-10",
+      "lot": 0.1,
+      "sample": true
+    },
+    {
+      "issuer": "Bajaj Finance",
+      "name": "7.58% Bajaj Fin 2028",
+      "isin": "INE296A07TT8",
+      "sector": "NBFC",
+      "rating": "AAA",
+      "ytm": 0.0758,
+      "maturity": "2028-07-22",
+      "lot": 0.1,
+      "sample": true
+    },
+    {
+      "issuer": "Power Grid Corporation",
+      "name": "7.15% Power Grid 2031",
+      "isin": "INE752E07QT1",
+      "sector": "PSU",
+      "rating": "AAA",
+      "ytm": 0.073,
+      "maturity": "2031-04-10",
+      "lot": 1.0,
+      "sample": true
+    },
+    {
+      "issuer": "Muthoot Finance",
+      "name": "8.25% Muthoot 2028",
+      "isin": "INE414G08DX9",
+      "sector": "NBFC",
+      "rating": "AA+",
+      "ytm": 0.0865,
+      "maturity": "2028-06-20",
+      "lot": 0.1,
+      "sample": true
+    },
+    {
+      "issuer": "Shriram Finance",
+      "name": "8.90% Shriram 2029",
+      "isin": "INE721A08EA1",
+      "sector": "NBFC",
+      "rating": "AA+",
+      "ytm": 0.091,
+      "maturity": "2029-03-05",
+      "lot": 0.1,
+      "sample": true
+    }
+  ]
+}
