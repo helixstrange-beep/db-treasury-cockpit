@@ -120,9 +120,9 @@ function webSearchEnabled(): boolean {
 }
 
 // OpenAI Responses API — has the built-in web_search tool.
-async function viaResponses(apiKey: string, model: string, prompt: string): Promise<string> {
+async function viaResponses(apiKey: string, model: string, prompt: string, useWebSearch: boolean): Promise<string> {
   const body: any = { model, input: prompt };
-  if (webSearchEnabled()) body.tools = [{ type: "web_search_preview" }];
+  if (useWebSearch) body.tools = [{ type: "web_search_preview" }];
   const res = await fetch(`${baseUrl()}/responses`, {
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
@@ -133,7 +133,7 @@ async function viaResponses(apiKey: string, model: string, prompt: string): Prom
 }
 
 // OpenAI-compatible Chat Completions API (e.g. the buildathon gateway).
-async function viaChat(apiKey: string, model: string, prompt: string): Promise<string> {
+async function viaChat(apiKey: string, model: string, prompt: string, useWebSearch: boolean): Promise<string> {
   const body: any = {
     model,
     messages: [
@@ -142,8 +142,8 @@ async function viaChat(apiKey: string, model: string, prompt: string): Promise<s
     ],
   };
   // web_search_options is only honoured by search-capable models (e.g. *-search-preview).
-  // It is ignored/rejected by plain models, so gate it behind the env toggle.
-  if (webSearchEnabled()) body.web_search_options = {};
+  // Plain models (like gateway gpt-4o) reject it with a 400, so only send it when asked.
+  if (useWebSearch) body.web_search_options = {};
   const res = await fetch(`${baseUrl()}/chat/completions`, {
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
@@ -154,17 +154,109 @@ async function viaChat(apiKey: string, model: string, prompt: string): Promise<s
   return String(payload?.choices?.[0]?.message?.content ?? "");
 }
 
-async function fetchIssuerNews(issuer: string, lookbackDays: number): Promise<NewsItem[]> {
+async function callLLM(prompt: string, useWebSearch: boolean): Promise<string> {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) throw new Error("OPENAI_API_KEY is not set");
   const model = process.env.OPENAI_MODEL || "gpt-4o";
   const style = (process.env.OPENAI_API_STYLE || "responses").toLowerCase();
-  const prompt = buildPrompt(issuer, lookbackDays);
-  const text =
-    style === "chat"
-      ? await viaChat(apiKey, model, prompt)
-      : await viaResponses(apiKey, model, prompt);
-  return parseItems(text);
+  return style === "chat"
+    ? viaChat(apiKey, model, prompt, useWebSearch)
+    : viaResponses(apiKey, model, prompt, useWebSearch);
+}
+
+// ---- Google News RSS search (no API key needed) ----
+type Article = { title: string; source: string; url: string; date?: string; snippet?: string };
+
+function decodeEntities(s: string): string {
+  return s
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
+}
+
+async function fetchGoogleNews(issuer: string, lookbackDays: number): Promise<Article[]> {
+  const days = Math.max(1, lookbackDays);
+  const q = encodeURIComponent(`${issuer} when:${days}d`);
+  const url = `https://news.google.com/rss/search?q=${q}&hl=en-IN&gl=IN&ceid=IN:en`;
+  const res = await fetch(url, {
+    headers: { "User-Agent": "Mozilla/5.0 (compatible; TreasuryCockpit/1.0)" },
+  });
+  if (!res.ok) throw new Error(`Google News ${res.status}`);
+  const xml = await res.text();
+  const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
+  const chunks = xml.split(/<item>/).slice(1).map((c) => c.split("</item>")[0]);
+  const out: Article[] = [];
+  for (const it of chunks) {
+    const rawTitle = decodeEntities((it.match(/<title>([\s\S]*?)<\/title>/)?.[1] || "").trim());
+    const link = (it.match(/<link>([\s\S]*?)<\/link>/)?.[1] || "").trim();
+    const pub = (it.match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1] || "").trim();
+    const src = decodeEntities((it.match(/<source[^>]*>([\s\S]*?)<\/source>/)?.[1] || "").trim());
+    const descRaw = it.match(/<description>([\s\S]*?)<\/description>/)?.[1] || "";
+    const snippet = decodeEntities(descRaw).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 300);
+    // Google News titles are usually "Headline - Publisher"; drop the trailing publisher.
+    const title = src && rawTitle.endsWith(` - ${src}`) ? rawTitle.slice(0, -(src.length + 3)).trim() : rawTitle;
+    if (!title) continue;
+    const t = pub ? new Date(pub).getTime() : NaN;
+    if (!isNaN(t) && t < cutoff) continue;
+    out.push({
+      title,
+      source: src || "Google News",
+      url: link,
+      date: isNaN(t) ? undefined : new Date(t).toISOString().slice(0, 10),
+      snippet: snippet || undefined,
+    });
+    if (out.length >= 12) break;
+  }
+  return out;
+}
+
+function buildClassifyPrompt(issuer: string, articles: Article[]): string {
+  const list = articles
+    .map(
+      (a, i) =>
+        `${i + 1}. "${a.title}" — ${a.source}${a.date ? ` (${a.date})` : ""}\n   url: ${a.url}${a.snippet ? `\n   ${a.snippet}` : ""}`
+    )
+    .join("\n");
+  return `You are a fixed-income credit analyst monitoring counterparty risk for a corporate treasury in India.
+Below are recent news headlines about the debt issuer "${issuer}". Select ONLY the items that are MATERIAL to a bondholder / depositor:
+- credit rating actions (upgrade, downgrade, watch, outlook change)
+- defaults, delayed payments, debt restructuring
+- regulatory or enforcement action, fraud, governance concerns
+- major results, capital raises, M&A, or liquidity events affecting creditworthiness
+
+Ignore routine PR, product launches, advertisements, and generic market commentary.
+If none are material, return an empty array.
+
+HEADLINES:
+${list}
+
+Return ONLY a JSON array (no prose) where each element is:
+{
+  "headline": string,        // clean version of the article headline
+  "summary": string,         // 1-2 sentences: what happened and why it matters to a creditor
+  "source": string,          // publication name from the item
+  "url": string,             // the item's url, copied exactly from above
+  "date": string,            // ISO date (YYYY-MM-DD) from the item
+  "severity": "high" | "medium" | "low" | "positive"
+}
+Severity guide: high = default/downgrade-to-junk/fraud; medium = negative watch/outlook, minor downgrade, regulatory probe; low = mild/uncertain negative; positive = upgrade or clearly credit-positive event.
+Use only the URLs, sources and dates provided above — do not invent any.`;
+}
+
+async function fetchIssuerNews(issuer: string, lookbackDays: number): Promise<NewsItem[]> {
+  const provider = (process.env.NEWS_SEARCH || "llm").toLowerCase();
+  if (provider === "googlenews") {
+    // Fetch fresh articles ourselves, then let the model (no web search needed) classify them.
+    const articles = await fetchGoogleNews(issuer, lookbackDays);
+    if (!articles.length) return [];
+    return parseItems(await callLLM(buildClassifyPrompt(issuer, articles), false));
+  }
+  // Default: let the model do its own web search (OpenAI Responses / search-capable chat model).
+  return parseItems(await callLLM(buildPrompt(issuer, lookbackDays), webSearchEnabled()));
 }
 
 async function run() {
