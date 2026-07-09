@@ -83,12 +83,8 @@ function parseItems(text: string): NewsItem[] {
   }
 }
 
-async function fetchIssuerNews(issuer: string, lookbackDays: number): Promise<NewsItem[]> {
-  const apiKey = process.env.OPENAI_API_KEY;
-  if (!apiKey) throw new Error("OPENAI_API_KEY is not set");
-  const model = process.env.OPENAI_MODEL || "gpt-4o";
-
-  const prompt = `You are a fixed-income credit analyst monitoring counterparty risk for a corporate treasury in India.
+function buildPrompt(issuer: string, lookbackDays: number): string {
+  return `You are a fixed-income credit analyst monitoring counterparty risk for a corporate treasury in India.
 Search the web for MATERIAL news about the debt issuer "${issuer}" published in the last ${lookbackDays} days.
 
 Only report items that matter to a bondholder / depositor, such as:
@@ -110,26 +106,65 @@ Return ONLY a JSON array (no prose) where each element is:
   "severity": "high" | "medium" | "low" | "positive"
 }
 Severity guide: high = default/downgrade-to-junk/fraud; medium = negative watch/outlook, minor downgrade, regulatory probe; low = mild/uncertain negative; positive = upgrade or clearly credit-positive event.`;
+}
 
-  const res = await fetch("https://api.openai.com/v1/responses", {
+// Base URL for an OpenAI-compatible API. Point this at a gateway/proxy if needed,
+// e.g. OPENAI_BASE_URL="https://gateway-buildathon.ltl.sh/v1". Defaults to OpenAI.
+function baseUrl(): string {
+  return (process.env.OPENAI_BASE_URL || "https://api.openai.com/v1").replace(/\/+$/, "");
+}
+
+function webSearchEnabled(): boolean {
+  // On by default; set OPENAI_WEB_SEARCH="false" for gateways/models without web search.
+  return process.env.OPENAI_WEB_SEARCH !== "false";
+}
+
+// OpenAI Responses API — has the built-in web_search tool.
+async function viaResponses(apiKey: string, model: string, prompt: string): Promise<string> {
+  const body: any = { model, input: prompt };
+  if (webSearchEnabled()) body.tools = [{ type: "web_search_preview" }];
+  const res = await fetch(`${baseUrl()}/responses`, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      model,
-      tools: [{ type: "web_search_preview" }],
-      input: prompt,
-    }),
+    headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
+    body: JSON.stringify(body),
   });
+  if (!res.ok) throw new Error(`LLM ${res.status}: ${(await res.text()).slice(0, 300)}`);
+  return extractText(await res.json());
+}
 
-  if (!res.ok) {
-    const body = await res.text();
-    throw new Error(`OpenAI ${res.status}: ${body.slice(0, 300)}`);
-  }
+// OpenAI-compatible Chat Completions API (e.g. the buildathon gateway).
+async function viaChat(apiKey: string, model: string, prompt: string): Promise<string> {
+  const body: any = {
+    model,
+    messages: [
+      { role: "system", content: "You are a fixed-income credit analyst. Reply with ONLY a JSON array and no prose." },
+      { role: "user", content: prompt },
+    ],
+  };
+  // web_search_options is only honoured by search-capable models (e.g. *-search-preview).
+  // It is ignored/rejected by plain models, so gate it behind the env toggle.
+  if (webSearchEnabled()) body.web_search_options = {};
+  const res = await fetch(`${baseUrl()}/chat/completions`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) throw new Error(`LLM ${res.status}: ${(await res.text()).slice(0, 300)}`);
   const payload = await res.json();
-  return parseItems(extractText(payload));
+  return String(payload?.choices?.[0]?.message?.content ?? "");
+}
+
+async function fetchIssuerNews(issuer: string, lookbackDays: number): Promise<NewsItem[]> {
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) throw new Error("OPENAI_API_KEY is not set");
+  const model = process.env.OPENAI_MODEL || "gpt-4o";
+  const style = (process.env.OPENAI_API_STYLE || "responses").toLowerCase();
+  const prompt = buildPrompt(issuer, lookbackDays);
+  const text =
+    style === "chat"
+      ? await viaChat(apiKey, model, prompt)
+      : await viaResponses(apiKey, model, prompt);
+  return parseItems(text);
 }
 
 async function run() {
