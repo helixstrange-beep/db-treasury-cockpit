@@ -301,10 +301,10 @@ function Overview({ holdings, media, totalAUM, wAvgYtm, wAvgMat, issuerExp, live
                   <tr key={h.id} onClick={() => setSel(h)}>
                     <td>{h.name}{h.ipo === "IPO" && <span className="pill ipo" style={{ marginLeft: 6 }}>IPO</span>}</td>
                     <td className="hide-sm">{h.issuer || "-"}</td>
-                    <td><span className={"pill " + pillClass(h.type)}>{h.type}</span></td>
+                    <td data-label="Type"><span className={"pill " + pillClass(h.type)}>{h.type}</span></td>
                     <td className="small hide-sm">{h.entity || "-"}</td>
-                    <td className="num">{cr(h.amount)}</td>
-                    <td className="num">{pct(h.ytm)}</td>
+                    <td className="num" data-label="Amount (Cr)">{cr(h.amount)}</td>
+                    <td className="num" data-label="YTM">{pct(h.ytm)}</td>
                     <td className="num hide-sm" style={{ color: ly > (h.ytm || 0) ? "var(--good)" : ly < (h.ytm || 0) ? "var(--bad)" : undefined }}>{pct(ly)}</td>
                     <td className="small hide-sm">{h.maturity ? h.maturity.slice(0, 10) : "Open"}</td>
                   </tr>
@@ -472,7 +472,7 @@ function MarketView({ holdings, market, wAvgYtm, live }: { holdings: Holding[]; 
               {rows.map((h) => {
                 const ly = live[h.id] ?? h.ytm ?? 0; const bps = (ly - (h.ytm || 0)) * 10000;
                 return <tr key={h.id}><td>{h.name}</td><td className="hide-sm"><span className={"pill " + pillClass(h.type)}>{h.type}</span></td>
-                  <td className="num">{pct(h.ytm)}</td><td className="num">{pct(ly)}</td><td className={"num " + (bps >= 0 ? "up" : "down")}>{bps >= 0 ? "+" : ""}{bps.toFixed(1)}</td></tr>;
+                  <td className="num" data-label="Book YTM">{pct(h.ytm)}</td><td className="num" data-label="Live yield">{pct(ly)}</td><td className={"num " + (bps >= 0 ? "up" : "down")} data-label="Δ bps">{bps >= 0 ? "+" : ""}{bps.toFixed(1)}</td></tr>;
               })}
             </tbody>
           </table>
@@ -531,12 +531,12 @@ function MaturityView({ holdings, buckets, totalAUM }: { holdings: Holding[]; bu
         <div className="ph"><div><h3>Upcoming maturities &amp; reinvestment alerts</h3><small>Next 90 days</small></div></div>
         <div className="tablebox" style={{ maxHeight: 420 }}>
           <table>
-            <thead><tr><th>Maturity</th><th>Days</th><th>Instrument</th><th className="hide-sm">Issuer</th><th className="hide-sm">Entity</th><th className="num">Amt (Cr)</th><th className="num">YTM</th></tr></thead>
+            <thead><tr><th>Instrument</th><th>Maturity</th><th>Days</th><th className="hide-sm">Issuer</th><th className="hide-sm">Entity</th><th className="num">Amt (Cr)</th><th className="num">YTM</th></tr></thead>
             <tbody>
               {upcoming.length === 0 && <tr><td colSpan={7} className="small">No maturities in the next 90 days.</td></tr>}
               {upcoming.map((h) => { const d = daysTo(h.maturity)!; return (
-                <tr key={h.id}><td>{h.maturity!.slice(0, 10)}</td><td className={d <= 14 ? "flag" : ""}>{d}{d <= 14 ? " ⚠" : ""}</td><td>{h.name}</td>
-                  <td className="hide-sm">{h.issuer}</td><td className="small hide-sm">{h.entity}</td><td className="num">{cr(h.maturityAmount || h.amount)}</td><td className="num">{pct(h.ytm)}</td></tr>
+                <tr key={h.id}><td>{h.name}</td><td data-label="Maturity">{h.maturity!.slice(0, 10)}</td><td className={d <= 14 ? "flag" : ""} data-label="Days">{d}{d <= 14 ? " ⚠" : ""}</td>
+                  <td className="hide-sm">{h.issuer}</td><td className="small hide-sm">{h.entity}</td><td className="num" data-label="Amt (Cr)">{cr(h.maturityAmount || h.amount)}</td><td className="num" data-label="YTM">{pct(h.ytm)}</td></tr>
               ); })}
             </tbody>
           </table>
@@ -662,15 +662,15 @@ function ScreenerView({ holdings, candidates }: { holdings: Holding[]; candidate
                 {res.rows.map((r, i) => (
                   <tr key={i}>
                     <td>{r.issuer}{r.recpfc && <span className="small"> (REC/PFC combined)</span>}</td>
-                    <td>{r.name}<div className="small">{r.isin}</div></td>
+                    <td data-label="Bond">{r.name}<div className="small">{r.isin}</div></td>
                     <td className="small hide-sm">{r.sector}</td>
-                    <td><span className={"st " + (r.ratingOk ? "pass" : "warn")}>{r.rating}</span></td>
-                    <td className="num">{pct(r.ytm)}</td>
+                    <td data-label="Rating"><span className={"st " + (r.ratingOk ? "pass" : "warn")}>{r.rating}</span></td>
+                    <td className="num" data-label="YTM">{pct(r.ytm)}</td>
                     <td className="small hide-sm">{r.maturity}</td>
-                    <td className="num">{r.tenureM}m</td>
+                    <td className="num" data-label="Tenure">{r.tenureM}m</td>
                     <td className="num hide-sm">{r.lot.toFixed(2)} Cr</td>
-                    <td className="num">{r.headroom != null ? "₹" + cr(r.headroom) + " Cr" : "–"}</td>
-                    <td>{r.pass
+                    <td className="num" data-label="Headroom">{r.headroom != null ? "₹" + cr(r.headroom) + " Cr" : "–"}</td>
+                    <td data-label="Status">{r.pass
                       ? <span className="st pass">Eligible</span>
                       : <><span className="st breach">Excluded</span><div className="small">{r.reasons.join("; ")}</div></>}</td>
                   </tr>
