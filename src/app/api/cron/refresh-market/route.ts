@@ -34,6 +34,21 @@ function enabled(name: string): boolean {
   return (process.env[name] || "").toLowerCase() !== "false";
 }
 
+// fetch with a hard timeout so a single slow/hanging source can never consume
+// the whole function budget (each source is independent and best-effort).
+async function fetchWithTimeout(url: string, ms = 20000): Promise<Response> {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), ms);
+  try {
+    return await fetch(url, {
+      signal: ctrl.signal,
+      headers: { "User-Agent": "TreasuryCockpit/1.0" },
+    });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 // Normalise any date to midnight UTC so MarketPoint's @@unique([date, series])
 // treats one calendar day as one row.
 function dayUTC(d: Date): Date {
@@ -52,7 +67,7 @@ async function upsertPoint(date: Date, series: string, value: number): Promise<v
 // ---- 1. USD-INR via Frankfurter (ECB reference rates) ----
 async function refreshFx(): Promise<{ series: string; value: number; date: string }> {
   const url = "https://api.frankfurter.app/latest?from=USD&to=INR";
-  const res = await fetch(url, { headers: { "User-Agent": "TreasuryCockpit/1.0" } });
+  const res = await fetchWithTimeout(url);
   if (!res.ok) throw new Error(`Frankfurter ${res.status}`);
   const j: any = await res.json();
   const rate = Number(j?.rates?.INR);
@@ -78,16 +93,22 @@ function pickTag(block: string, tag: string): string | null {
   return m ? m[1].trim() : null;
 }
 
-async function refreshUST(): Promise<{ date: string; points: Record<string, number> }> {
-  const year = new Date().getUTCFullYear();
+async function fetchUstEntries(year: number): Promise<string[]> {
   const url =
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml" +
     `?data=daily_treasury_yield_curve&field_tdr_date_value=${year}`;
-  const res = await fetch(url, { headers: { "User-Agent": "TreasuryCockpit/1.0" } });
+  const res = await fetchWithTimeout(url);
   if (!res.ok) throw new Error(`Treasury ${res.status}`);
   const xml = await res.text();
-  // Each <entry> is one date's curve; the feed is chronological, so take the last.
-  const entries = xml.split(/<entry>/).slice(1).map((c) => c.split("</entry>")[0]);
+  // Each <entry> is one date's curve; the feed is chronological.
+  return xml.split(/<entry>/).slice(1).map((c) => c.split("</entry>")[0]);
+}
+
+async function refreshUST(): Promise<{ date: string; points: Record<string, number> }> {
+  const year = new Date().getUTCFullYear();
+  // Early in January the current-year feed can be empty; fall back to last year.
+  let entries = await fetchUstEntries(year);
+  if (!entries.length) entries = await fetchUstEntries(year - 1);
   if (!entries.length) throw new Error("Treasury: no entries in feed");
   const last = entries[entries.length - 1];
   const rawDate = pickTag(last, "NEW_DATE");
@@ -136,7 +157,8 @@ async function refreshNav(): Promise<{ marked: number; repriced: number; unmatch
   }
 
   const url = process.env.AMFI_NAV_URL || "https://www.amfiindia.com/spages/NAVAll.txt";
-  const res = await fetch(url, { headers: { "User-Agent": "TreasuryCockpit/1.0" } });
+  // The full NAV file is large, so give it a longer timeout than the others.
+  const res = await fetchWithTimeout(url, 45000);
   if (!res.ok) throw new Error(`AMFI ${res.status}`);
   const text = await res.text();
 
