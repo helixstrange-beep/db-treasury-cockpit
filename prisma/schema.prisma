@@ -24,6 +24,9 @@ model Holding {
   geo            String    @default("India")
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
+  isin           String?
+  nav            Float?
+  navDate        DateTime?
 
   @@index([type])
   @@index([entity])
